@@ -1,0 +1,52 @@
+.demh2{
+    margin: 0;
+    display: inline;
+    margin-right: 20px;
+    vertical-align: bottom;
+}
+.fa-globe{
+    color: mediumseagreen;
+    font-size: 50px;
+    vertical-align: bottom;
+}
+table th{
+    font-size: 12px;
+}
+td{
+    font-size: 11px;
+}
+.leyte{
+    background-color:#ccffe6;
+    color: #333;
+}
+.wsamar{
+    background-color: #ffb3b3;
+    color: #333;
+}
+.esamar{
+    background-color: #ffcc99;
+    color: #333;
+}
+.nsamar{
+    background-color: #f9e6ff;
+    color: #333;
+}
+.sleyte{
+    background-color: #cce6ff;
+    color: #333;
+}
+.biliran{
+    background-color: #ffffcc;
+    color: #333;
+}
+thead{
+    background-color: #333;
+    color: #fff;
+}
+.totalSum{
+    background-color: #333;
+    color: #fff;
+}
+.totalSum td{
+    font-size: 15px;
+}

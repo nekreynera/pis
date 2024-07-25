@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px){
+    #modal-new-sub .modal-dialog,
+    #modal-scan-patient .modal-dialog,
+    #modal-edit-sub .modal-dialog{
+        width:400px;
+    }
+    #modal-new-list .modal-dialog,
+    #modal-edit-list .modal-dialog,
+    #modal-info-list .modal-dialog{
+    	width: 450px;
+    }
+     #modal-new-transaction .modal-dialog{
+        width: 800px;
+    }
+    #modal-request-form .modal-dialog{
+        width: 700px;
+    }
+    #modal-patients-list .modal-dialog{
+        width: 900px;
+    }
+    #modal-new-opd-doctor .modal-dialog{
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 910px){
+    #modal-new-transaction .modal-dialog{
+        width: 900px;
+    }
+}
+
+input, select, .select2{
+    height: 30px!important;
+    font-size: 12px!important;
+}
+textarea{
+    font-size: 12px!important;
+}
+
+table tbody tr td span.fa-caret-right{
+    display: none;
+}
+table thead tr th span.fa-user-o,
+table tbody tr td span.fa-user-o{
+    font-size: 20px;
+    margin: -5px;
+}
+.table-responsive{
+    margin-bottom: 5px;
+}
+.table-responsive-ancillary-request{
+    max-height: 150px;
+    min-height: 150px;
+    overflow-y: auto;
+}
+.queing-status-button button small{
+    background-color: #fff!important;
+    border:  1px solid black!important;
+    color: black!important;
+    border-radius: 50%;
+    padding: 1px 3px;
+}
+div.table{
+    margin-bottom: 0px!important;
+}

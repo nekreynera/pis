@@ -1,0 +1,54 @@
+body{
+  background-color: #F4FFF4!important;
+}
+p,label,h3,input{
+  color: #386D3B!important;
+}
+.navigation, #navigationMenus .dropdown .dropdown-menu{
+    background-color: #2DB22D;
+}
+.navigation .navbar-brand .longBrandName,
+.navigation .navbar-brand .shortHandName{
+    color: #FFFFFF!important;
+}
+.navigation .navbar-brand .longBrandName{
+    font-size: 17px;
+}
+#navigationMenus li{
+    border-right: none;
+    border-left: none;
+}
+#navigationMenus li a:hover, #navigationMenus li a:focus{
+    background-color: green;
+    transition: 0s;
+}
+.navigation li a{
+    color: #FFFFFF!important;
+    /*font-weight: bold;*/
+    font-size: 12px;
+}
+
+
+
+
+
+.scaninput{
+  margin: 100px;
+}
+.scaninput input{
+  height: 60px;
+  border-right: none;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.scaninput input:focus{
+  border:1px solid #00b300;
+  border-right: none;
+  box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.scaninput span{
+  font-size: 40px;
+  background-color: #fff;
+  border-left: none;
+}

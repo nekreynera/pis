@@ -1,0 +1,86 @@
+#watchermodal .modal-content{
+	background-color: rgb(245, 248, 250);
+}
+#watchermodal .modal-body{
+	padding: 5px 15px;
+}
+#watchermodal .modal-body .form-group{
+	margin-bottom: 5px;
+}
+#watchermodal .modal-header{
+	padding: 10px;
+	text-align: center;
+}
+#watchermodal .modal-footer{
+	padding: 5px;
+}
+#watchermodal table th, #watchermodal table th, #watchermodal table td{
+	padding: 4px;
+}
+
+#addpatientmodal .modal-content{
+	background-color: rgb(245, 248, 250);
+}
+#addpatientmodal .modal-body{
+	padding: 5px 15px;
+}
+#addpatientmodal .modal-body .form-group{
+	margin-bottom: 5px;
+}
+#addpatientmodal .modal-header{
+	padding: 10px;
+	text-align: center;
+}
+#addpatientmodal .modal-footer{
+	padding: 5px;
+}
+#addpatientmodal input{
+	height: 32px;
+	font-size: 12px;
+}
+
+#scanmodal .modal-content{
+	background-color: rgb(245, 248, 250);
+}
+#scanmodal .modal-body{
+	padding: 5px 15px;
+}
+#scanmodal .modal-body .form-group{
+	margin-bottom: 5px;
+}
+#scanmodal .modal-header{
+	padding: 10px;
+	text-align: center;
+}
+#scanmodal .modal-footer{
+	padding: 5px;
+}
+#scanmodal .modal-body input, .input-group-btn button{
+	text-align: center;
+	height: 40px;
+}
+@media screen and (min-width: 768px){
+    #addpatientmodal .modal-dialog{
+    	width:400px;
+    }
+    #scanmodal .modal-dialog{
+    	width:500px;
+    }
+    
+}
+
+
+#checkpatient table{
+	background-color: #e6e6e6;
+}
+
+#checkpatient table th{
+	font-size: 13px;
+	background-color: #cccccc;
+	text-align: center;
+	padding: 4px;
+}
+#checkpatient table td{
+	font-size: 12px;
+	padding: 4px;
+}

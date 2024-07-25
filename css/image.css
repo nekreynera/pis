@@ -1,0 +1,134 @@
+#image{
+	width: 127px;
+	height: 89px;
+}
+#image-select{
+	position: absolute;
+	width: 42px;
+	height: 66px;
+	left: 8px;
+	top: 2px;
+	border: 1px solid rgba(0,0,0,0);
+}
+#image-select:hover{
+	border: 1px solid rgba(148, 190, 234, 1);	
+}
+#image-select-clickable-img{
+	position: absolute;
+	width: 42px;
+	height: 37px;
+	left: -1px;
+	top: -1px;
+	border: 1px solid rgba(0,0,0,0);
+	background: rgba(0,0,0,0) url('../img/system/select_31x25.png') no-repeat 50% center;
+}
+#image-select-clickable-img:hover{
+	background: rgba(233, 239, 246, 1) url('../img/system/select_31x25.png') no-repeat 50% center;
+	border: 1px solid rgba(148, 190, 234, 1);
+}
+#image-select-clickable-text-arrow{
+	position: absolute;
+	width: 42px;
+	height: 28px;
+	left: -1px;
+	top: 37px;
+	border: 1px solid rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+}
+#image-select-clickable-text-arrow:hover{
+	border: 1px solid rgba(148, 190, 234, 1);
+	background-color: rgba(233, 239, 246, 1);
+}
+#image-select-clickable-text{
+	font: 12px calibri;
+	position: absolute;
+	width: 38px;
+	height: 12px;
+	left: 1px;
+	top: 1px;
+	text-align: center;
+}
+#image-select-clickable-text:before{
+	content: 'Select';
+}
+#image-select-clickable-arrow{
+	position: absolute;
+	width: 38px;
+	height: 13px;
+	left: 1px;
+	top: 13px;
+	background: rgba(0,0,0,0) url('../img/system/darr_5x3.png') no-repeat 50% center;	
+}
+.image-crop-resize-rotate{
+	position: absolute;
+	width: 69px;
+	height: 22px;
+	left: 50px;
+	border: 1px solid rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+}
+.image-crop-resize-rotate-img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 1px;
+	top: 1px;
+}
+.image-crop-resize-rotate-text{
+	font: 12px calibri;
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	left: 21px;
+	top: 1px;
+	padding-top: 2px;	
+}
+#image-crop{
+	top: 2px;
+}
+#image-crop-text:before{
+	content: 'Crop';
+}
+#image-crop-img{
+	background: rgba(0,0,0,0) url('../img/system/crop_13x13.png') no-repeat 50% center;
+}
+#image-resize{
+	top: 24px;
+}
+#image-resize-text:before{
+	content: 'Resize';
+}
+#image-resize-img{
+	background: rgba(0,0,0,0) url('../img/system/resize_13x12.png') no-repeat 50% center;
+}
+#image-rotate{
+	top: 46px;
+}
+#image-rotate-text:before{
+	content: 'Rotate';
+}
+#image-rotate-img{
+	background: rgba(0,0,0,0) url('../img/system/rotate_16x12.png') no-repeat 50% center;
+}
+#image-rotate-darr{
+	position: absolute;
+	width: 11px;
+	height: 22px;
+	left: 55px;
+	background: rgba(0,0,0,0) url('../img/system/darr_5x3.png') no-repeat 50% center;	
+}
+#image-crop:hover, #image-resize:hover, #image-rotate:hover{
+	border: 1px solid rgba(165, 206, 248, 1);
+	background-color: rgba(233, 239, 246, 1);
+}		
+#image-text{
+	font: 11px calibri;
+	position: absolute;
+	width: 125px;
+	height: 15px;
+	left: 1px;
+	top: 73px;
+	color: rgba(181,146,164,1);
+	text-align: center;
+	cursor: default;
+}

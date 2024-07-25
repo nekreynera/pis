@@ -1,0 +1,6 @@
+#patient_assignation_modal table tbody tr:hover td{
+    cursor: pointer;
+    background-color: #d3f8d3 !important;
+    color: #000 !important;
+    font-weight: bold;
+}

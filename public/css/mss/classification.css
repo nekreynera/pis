@@ -1,0 +1,206 @@
+#classification_panel .required::-webkit-input-placeholder { /* Chrome */
+  color: red;
+}
+#classification_panel .required:-ms-input-placeholder { /* IE 10+ */
+  color: red;
+}
+#classification_panel .required::-moz-placeholder { /* Firefox 19+ */
+  color: red;
+  opacity: 1;
+}
+#classification_panel .required:-moz-placeholder { /* Firefox 4 - 18 */
+  color: red;
+  opacity: 1;
+}
+.selectrequired{
+  color: red;
+}
+
+.selectrequired option:checked{
+  color:red;
+}
+.submit_classification .btn-fab{
+  position: fixed !important;
+  right: 20px;
+  height: 70px!important;
+  width: 70px!important;
+}
+.submit_classification .btn-fab i{
+  font-size: 25px;
+}
+#submit_classification{
+  bottom: 20px;
+}
+.submit_classification .btn-print{
+  position: fixed !important;
+  right: 20px;
+  height: 70px!important;
+  width: 70px!important;
+}
+.submit_classification .btn-print i{
+  font-size: 25px;
+}
+
+
+.print_classification .btn-fab{
+  position: fixed !important;
+  top: 90px;
+  right: 20px;
+  height: 70px!important;
+  width: 70px!important;
+}
+.print_classification .btn-fab i{
+  font-size: 25px;
+}
+#print_classification{
+  bottom: 20px;
+}
+@media print{
+#print_classification{
+  display: none;
+}
+#print_classification td{
+  border: 1px solid black;
+}
+
+}
+#wew{
+  bottom: 100px;
+}
+
+#classification_panel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#classification_panel .panel-heading{
+  background-color: white;
+  border-bottom: none;
+  text-align: center;
+}
+#classification_panel .panel-body th{
+    background-color: #66bb6a;
+    border: 1px solid #66bb6a;
+    color: #fff;
+}
+#classification_panel .panel-body input{
+    border-radius: 0px;
+    height: 40px;
+    border:1px solid #a6a6a6;
+    background-color: #fafafa;
+    font-size: 11px;
+}
+#classification_panel .panel-body input:focus{
+    box-shadow: none;
+    border-top: 2px solid #5bc0de;
+}
+#classification_panel .panel-body select{
+    border-radius: 0px;
+    height: 40px;
+    border:1px solid #a6a6a6;
+    background-color: #fafafa;
+    font-size: 11px;
+}
+#classification_panel .panel-body select:focus{
+    box-shadow: none;
+    border-top: 2px solid #5bc0de;
+}
+#classification_panel .panel-body button{
+    width: 150px;
+    border-radius: 15px;
+    transition: background-color .5s;
+}
+#classification_panel .panel-body button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#classif_modal .modal-body h4{
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#PgovStatus td{
+  padding: 0px!important;
+  height: 30px!important;
+}
+#PgovStatus input{
+  height: 30px!important;
+  border: none!important;
+  text-transform: uppercase;
+  background-color: #f5f5f5!important;
+}
+#PgovStatus input:focus{
+  border-top: 2px solid #00e676!important;
+}
+#PgovStatus select{
+  height: 30px!important;
+  border: none!important;
+  background-color: #f5f5f5!important;
+  text-transform: uppercase;
+}
+#PgovStatus select:placeholder{
+  color: white;
+}
+#PgovStatus select:focus{
+  border-top: 2px solid #00e676!important;
+}
+#PgovStatus textarea{
+  height: 70px!important;
+  border: none!important;
+  border-radius: 0px;
+  background-color: #f5f5f5!important;
+  resize: vertical;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+#PgovStatus textarea:focus{
+  border-top: 2px solid #00e676!important;
+}
+#PgovStatus #paddingphilhealth{
+  padding: 0px;
+}
+#PgovStatus select{
+  height: 30px!important;
+}
+@media (max-width: 768px) {
+  #classification_panel{
+    padding: 15px;
+  }
+  #classification_panel .panel-body{
+    padding: 0px;
+  }
+}
+.submitclassificationloader{
+  padding: 12px;
+  border-radius: 3px;
+  position: fixed;
+  left: 45.5%;
+  top: 35%;
+  display: none;
+
+}
+.submitclassificationloader img{
+  width: 100px;
+  height: 100px;
+}
+#generatereportbody th{
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #mssreportgenarete{
+    padding: 2px;
+  }
+}
+#patienttoday table th{
+  background-color: #66bb6a;
+  border: 1px solid #66bb6a;
+  color: #fff;
+  text-transform: uppercase;
+}
+.information-panel{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,132 @@
+.container-fluid{
+    font-family: Raleway-Medium;
+}
+.previewHeaderWrapper h2, .previewHeaderWrapper div{
+    display: inline;
+}
+.horizontal-role{
+    width: 100%;
+    border: 3px dashed #ccc;
+    text-align: center;
+}
+.filesWrapper{
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+}
+.filesWrapper img{
+    border-radius: 3px;
+    height: 80%;
+    margin-bottom: 5px;
+}
+.imgWrapperPreview{
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border-radius: 3px;
+}
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+}
+@media (min-width: 768px) {
+    .modal-xxl {
+        width: 100%;
+        max-width:1300px;
+    }
+}
+#imagePreview{
+    background-color: rgba(0,0,0,.7);
+}
+#imagePreview .modal-header{
+    border: transparent;
+}
+#imagePreview .modal-header button{
+    outline: none;
+}
+#imagePreview .modal-header span{
+    font-size: 40px;
+    color: red;
+}
+#imagePreview .modal-header span:hover{
+    color: maroon;
+}
+.colorless{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+.colorless img{
+    border-radius: 3px;
+}
+.imageDescWrapper label{
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+.imageDescWrapper input[type="text"]{
+    background-color: transparent;
+    height: 45px;
+    border:1px solid #eee;
+    color: #eee;
+    font-size: 17px;
+}
+.imageDescWrapper textarea{
+    background-color: transparent;
+    color: #eee;
+    border:1px solid #eee;
+}
+.imageDescWrapper p{
+    color: #ccc;
+    font-style: italic;
+}
+.diagnosisPreview{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    padding-bottom: 150px;
+}
+.diagnosisWrapper input[type="text"]{
+    height: 40px;
+    box-shadow: none;
+    border:1px solid #c0c0c0;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index:0;
+}
+.diagnosisWrapper span.input-group-addon{
+    padding: 0px 15px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    z-index:0;
+}
+.diagnosisWrapper span.input-group-addon:hover{
+    cursor: pointer;
+}
+.diagnosisWrapper span.input-group-addon i{
+    color: #fff;
+    font-size: 20px;
+}
+.requisitionTable{
+    font-size: 13px;
+}
+.fileIncludedWrapper{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.fileIncludedWrapper a{
+    background-color: rgba(255,0,0,.7);
+    color: #fff;
+    transition: background-color .3s;
+}
+.fileIncludedWrapper a:hover{
+    background-color: rgba(255,0,0,1);
+    color: #fff;
+}

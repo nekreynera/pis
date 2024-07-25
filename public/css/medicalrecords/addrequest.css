@@ -1,0 +1,6 @@
+#patientinfo-table table{
+	font-size: 12px;
+}
+#patientinfo-table table td:nth-child(1){
+	background-color: #ccc;
+}

@@ -1,0 +1,148 @@
+@media screen and (min-width: 768px){
+    #chargingmodal .modal-dialog{
+    	width:1100px;
+    }
+    #patient-history-modal .modal-dialog{
+    	width:900px;
+    }
+    #patientinfo-modal .modal-dialog{
+    	width:1100px;
+    }
+    #vitalsigns-modal .modal-dialog{
+    	width:1100px;
+    }
+    #chiefcomplaint-modal .modal-dialog{
+    	width:1200px;
+    }
+    #z-nursenotes-modal .modal-dialog{
+    	width:1200px;
+ 
+    }
+}
+#qrcodeModal .modal-header, #qrcodeModal .modal-body, #qrcodeModal .modal-footer,
+#z-nursenotes-modal .modal-header, #z-nursenotes-modal .modal-body, #z-nursenotes-modal .modal-footer,
+#chiefcomplaint-modal .modal-header, #chiefcomplaint-modal .modal-body, #chiefcomplaint-modal .modal-footer,
+#vitalsigns-modal .modal-header, #vitalsigns-modal .modal-body, #vitalsigns-modal .modal-footer,
+#patientinfo-modal .modal-header, #patientinfo-modal .modal-body, #patientinfo-modal .modal-footer,
+#chargingmodal .modal-header, #chargingmodal .modal-body, #chargingmodal .modal-footer,
+#patient-history-modal .modal-header, #patient-history-modal .modal-body, #patient-history-modal .modal-footer{
+    padding: 10px;
+}
+#qrcodeModal .modal-body{
+	padding: 25px 50px!important;
+}
+.modal-content {
+   
+    background-color: rgb(245, 248, 250);
+}
+#chargingmodal .modal-header h4{
+	text-transform: uppercase;
+	margin: 0px;
+}
+#chargingmodal{
+	font-size: 12px;
+}
+#chargingmodal .form-group{
+	padding-left: 10px;
+}
+#chargingmodal .form-group input{
+	height: 30px;
+	background-color: #ffffff;
+	font-size: 12px;
+
+}
+#services-table-th th{
+	padding: 4px;
+	font-size: 13px;
+}
+#services-table-th th:nth-child(1){
+	width: 50px;
+}
+#services-table-th {
+	margin-bottom: 0px;
+}
+#services-table{
+	max-height: 200px;
+}
+#services-table td{
+	padding: 3px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+#services-table td:nth-child(1){
+	width: 50px;
+}
+#services-table td button{
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: .2s;
+	height: 25px;
+	width: 25px;
+	padding: 2.5px;
+}
+/*.services-view{
+	display: none;
+}*/
+#chargingmodal hr{
+	margin: 5px;
+}
+.service-summary{
+	background-color: #ddd;
+	padding: 5px;
+	border-radius: 3px;
+}
+.service-summary input{
+	height: 30px;
+	font-size: 12px;
+}
+.service-summary input.tamount, .service-summary input.tdiscount{
+	border: 1px solid #000;
+	background-color: #ffffff;
+}
+.service-summary input.tnetamount{
+	background-color: #ffffff;
+	border: 1px solid #3AA655;
+}
+#order-table th{
+	padding: 4px;
+	font-size: 13px;
+	text-align: center;
+}
+#order-table td{
+	padding: 3px;
+	font-size: 12px;
+}
+#order-table th:nth-child(1){
+	width: 50px;
+	text-align: center;
+}
+#order-table td:nth-child(1){
+	text-align: center;
+}
+#order-table td:nth-child(5),
+#order-table td:nth-child(6),
+#order-table td:nth-child(7),
+#order-table th:nth-child(5),
+#order-table th:nth-child(6),
+#order-table th:nth-child(7){
+	display: none;
+}
+#order-table td button{
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: .2s;
+	height: 25px;
+	width: 25px;
+	padding: 2.5px;
+}
+#order-table{
+	max-height: 200px;
+	margin-bottom: 0px;
+}
+#patient-history-modal th{
+	font-size: 13px;
+}
+#patient-history-modal td{
+	padding: 4px;
+	font-size: 12px;
+}

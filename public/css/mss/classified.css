@@ -1,0 +1,57 @@
+.calendar{
+	color: #009900;
+	cursor: pointer;
+}
+.data-adjustment input, .data-adjustment select{
+	font-size: 12px;
+	/*width: 90%;*/
+	height: 30px;
+}
+.data-adjustment input:focus, .data-adjustment select:focus{
+  border:1px solid #00b300;
+  border-right: none;
+  box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.nav-tabs li a{
+	font-weight: bold;
+}
+.nav-tabs li .badge{
+	background-color: #2db22d;
+	color: #ffffff;
+}
+div#classifiedTable_filter{
+	display: none!important;
+}
+table#classifiedTable thead tr th,
+table#sponsorsTable thead tr th
+{
+	background-color: #ccc;
+	text-align: center;
+	
+}
+table#classifiedTable thead tr th,
+table#sponsorsTable tbody tr td
+{
+	padding: 4px!important;
+}
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer{
+	padding: 8px;
+}
+#modal-edit-mss-classification .modal-body input,
+#modal-edit-mss-classification .modal-body select,
+#modal-store-mss-classification .modal-body input,
+#modal-store-mss-classification .modal-body select
+{
+	border-radius: 0px;
+}
+@media screen and (min-width: 768px){
+	#modal-monitoring-mss-guarantor .modal-dialog{
+		width: 90%;
+	}
+}
+thead.service-used,
+thead.ancillary-used{
+	display: none;
+}

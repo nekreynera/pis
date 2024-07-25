@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px){
+    #modal-print-patient .modal-dialog{
+        width:700px;
+    }
+}
+
+#modal-print-patient .modal-body .table-responsive{
+  	max-height: 400px;
+  	overflow-y: auto;
+}
+#modal-print-patient .search-header{
+  /*background-color: #E6FFE6;*/
+  padding: 3px;
+  border: 1px solid #E5E5E5;
+}
+
+#modal-print-patient .search-header span{
+  font-size: 12px;
+}
+#modal-print-patient .search-print{
+	display: none;
+}

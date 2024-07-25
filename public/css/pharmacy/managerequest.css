@@ -1,0 +1,94 @@
+body{
+	font-size: 12px;
+}
+
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+
+.table-banner{
+	padding: 10px;
+	background-color: #e0e0e0;
+}
+.table-banner h4{
+	padding-top: 8px;
+}
+.table-banner button, .table-banner a{
+	padding-top: 4px;
+	height: 30px;
+}
+.tables table th:first-child, .tables table th:nth-child(4), .tables table th:nth-child(5){
+	text-align: center;
+}
+.tables table td:nth-child(5), .tables table td:nth-child(6){
+	text-align: center;
+}
+.tables table td{
+	text-transform: uppercase;
+}
+
+.tables table td input.manage{
+	text-align: center;
+	height: 28px;
+	max-width: 100px;
+}
+.tables table td input[type="checkbox"], .tables table th input[type="checkbox"]{
+	height: 15px;
+	width: 15px;
+}
+.tables table td input:hover{
+	border: 1px solid black;
+}
+.tables table td input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.ramaining{
+	margin-top: -7px;
+	margin-right: -7px;
+	background-color: rgb(255, 126, 102);
+	min-width: 18px;
+	padding: 3px;
+	border-radius: 3px;
+	float: right;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+table{
+	font-size: 12px;
+}
+.requsitionWrapper{
+	border:1px solid #ccc;
+	padding: 3px;
+}
+.departmentWrapper{
+	padding-right: 3px;
+}
+.departmentWrapper th{
+	text-align: center;
+}
+.requsitionSelection{
+	border-left:1px solid #ccc;
+}
+.requsitionSelection th, .departmentWrapper th{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+	border: 1px solid rgb(221, 221, 221);
+	text-align: center;
+}
+.requsitionSelection td input{
+	height: 30px;
+	font-size: 12px;
+	border-radius: 0px;
+}
+.requsitionSelection td{
+	padding: 3px;
+}
+.manage-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}

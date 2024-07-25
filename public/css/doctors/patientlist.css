@@ -1,0 +1,232 @@
+#patientListWrapper{
+    font-family: Raleway-Medium;
+}
+input[type="text"]{
+    height: 40px;
+    box-shadow: none;
+    border:1px solid #999999;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 15px;
+}
+input[type="text"]:focus{
+    border:1px solid #00b300;
+    box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+span.input-group-addon{
+    border:1px solid #999999;
+    padding: 0px 15px;
+}
+table td{
+    font-size: 14px;
+}
+table th{
+    background-color: #eee;
+    font-size: 15px;
+}
+/*#patientListTable thead tr{
+  border-left: 10px solid #eee;
+}*/
+table .unassigned{
+    background-color: #9575cd;
+}
+table .pending{
+    background-color: orange;
+}
+table .serving{
+    background-color: #00e676;
+}
+table .cancel{
+    background-color: #e53935;
+}
+table .canceled{
+    background-color: #e53935;
+}
+table .nawc{
+    background-color: #e53935;
+}
+table .finished{
+    background-color: #03a9f4;
+}
+table .paused{
+    background-color: #795548;
+}
+
+/*table .unassigned{
+    border-left: 15px solid #9575cd;
+}
+table .pending{
+    border-left: 15px solid orange;
+}
+table .serving{
+    border-left: 15px solid #00e676;
+}
+table .cancel{
+    border-left: 15px solid #e53935;
+}
+table .canceled{
+    border-left: 15px solid #e53935;
+}
+table .nawc{
+    border-left: 10px solid #e53935;
+}
+table .finished{
+    border-left: 15px solid #03a9f4;
+}
+table .paused{
+    border-left: 15px solid #795548;
+}*/
+.legendDiv{
+    display: block;
+    padding-left:15px;
+}
+.legendUnassigned{
+    width: 5px;
+    height: 15px;
+    background-color: #9575cd;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendPending{
+    width: 5px;
+    height: 15px;
+    background-color: orange;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendServing{
+    width: 5px;
+    height: 15px;
+    background-color: #00e676;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendFinished{
+    width: 5px;
+    height: 15px;
+    background-color: #03a9f4;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendPaused{
+    width: 5px;
+    height: 15px;
+    background-color: #795548;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendCanceled{
+    width: 5px;
+    height: 15px;
+    background-color: #e53935;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendDropdown{
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+}
+.legendDropdown li{
+    margin-bottom: 8px;
+}
+.loaderWrapper{
+    position: absolute;
+    z-index:500000;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
+#medRecordsModal .loaderWrapper{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#consultationModal .loaderWrapper{
+    margin-left: 45%;
+}
+#requisitionModal .loaderWrapper{
+    margin-left: 45%;
+}
+#refferalsModal .loaderWrapper, #followupModal .loaderWrapper{
+    margin-left: 45%;
+}
+#consultationDetailsModal .loaderWrapper{
+    margin-left: 45%;
+    top: 10%;
+}
+.loaderWrapper p{
+    font-size: 12px;
+}
+#medRecordsModal .badge{
+    font-weight: normal;
+    background-color: indianred;
+    font-size: 13px;
+}
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+}
+@media (min-width: 768px) {
+    .modal-xxl {
+        width: 100%;
+        max-width:1300px;
+    }
+}
+#consultationModal th, #requisitionModal th, #refferalsModal th, #followupModal th{
+    font-size: 14px;
+}
+#consultationModal td, #requisitionModal td, #refferalsModal td, #followupModal td{
+    font-size: 13px;
+}
+.notifyBadge{
+    position: absolute;
+    margin-left: -12px;
+    margin-top: -8px;
+    background-color: indianred;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+.consultationLogsForm h2{
+    display: inline;
+    vertical-align: bottom;
+}
+.consultationLogsForm form{
+    display: inline;
+}
+.consultationLogsForm input[type="text"]{
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 15px;
+    height: 35px;
+}
+.consultationLogsForm input[type="text"]:focus{
+    border: 1px solid green;
+    outline: none;
+}
+.consultationLogsForm i{
+    font-size: 18px;
+}
+.consultationContent{
+    padding-top: 20px;
+}
+#radiologyResultWrapper{
+    padding-top: 10px;
+    padding-bottom: 120px;
+    line-height: 20px;
+}
+#radiologyResultWrapper p{
+    font-size: 15px;
+}
+#radiologyResultWrapper ol{
+    padding-left: 50px;
+}
+#radiologyResultWrapper li{
+    font-size: 15px;
+    list-style-type: decimal;
+}

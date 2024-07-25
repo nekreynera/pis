@@ -1,0 +1,18 @@
+ul#ancillary-sidebar-special{
+	min-height: 400px;
+	max-height: 400px;
+	overflow: auto;
+	padding-right: 0px;
+}
+.ancillary-sidebar-special li{
+	background-color: #222d32;
+	
+	color: #b8c7ce;
+
+}
+.ancillary-sidebar-special li a{
+	color: #b8c7ce;
+}
+.action-sub button{
+	margin-bottom: 5px;
+}

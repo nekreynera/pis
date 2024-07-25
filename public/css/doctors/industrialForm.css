@@ -1,0 +1,82 @@
+#industrialForm{
+    font-family: courier;
+}
+#industrialForm .modal-body{
+    font-size: 13px;
+    padding: 40px;
+}
+.industrialFormcLASS{
+    font-size: 13px;
+    padding: 40px;
+    border: 1px solid #eee;
+    box-shadow: 3px 3px 10px #ccc;
+}
+.dateOfConsult{
+    font-size: 12px;
+    padding: 5px;
+    outline-color: green;
+}
+#industrialForm table .checkbox{
+    margin: 0;
+}
+#industrialForm .smallInput{
+    width: 30px;
+}
+#industrialForm .styledForm{
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-family: courier, monospace;
+    transition: border .3s;
+    box-shadow: none;
+    border-radius: 0;
+}
+#industrialForm .styledForm:focus{
+    border-bottom: 1px solid green;
+}
+#industrialForm h5 strong{
+    color: green;
+}
+#industrialForm .styledFormSmall{
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-family: courier, monospace;
+    transition: border .3s;
+    width: 6%;
+}
+#industrialForm .styledFormSmall:focus{
+    border-bottom: 1px solid green;
+}
+#industrialForm .strng{
+    font-weight: bolder;
+    color: #008000;
+}
+#industrialForm .styledFormat{
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-family: courier, monospace;
+    transition: border .3s;
+    width: 60%;
+    box-shadow: none;
+    border-radius: 0;
+}
+#industrialForm .styledFormat:focus{
+    border-bottom: 1px solid green;
+}
+#industrialForm .lastInputBox{
+    width: 70%;
+}
+.printIConIndustrial{
+    display: none;
+}

@@ -1,0 +1,9 @@
+.ui-datepicker-calendar{
+    display: none;
+}
+.monthlyWrapper{
+    display: none;
+}
+.monthlyTableWrapper th{
+    background-color: #eee;
+}

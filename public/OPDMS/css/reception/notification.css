@@ -1,0 +1,16 @@
+li.qrcode_main_wrapper .qr_code_parent_list{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+li.qrcode_main_wrapper .qr_code_parent_list input{
+    text-align: center;
+    font-weight: bold;
+}
+
+li.search_queue_wrapper .search_queued_parent_list{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+li.search_queue_wrapper .search_queued_parent_list input{
+    text-align: center;
+}

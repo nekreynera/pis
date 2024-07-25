@@ -1,0 +1,31 @@
+.SrvicesTitleWrapper h2{
+	display: inline;
+	margin: 0;
+}
+.SrvicesTitleWrapper a{
+	margin-left: 15px;
+	vertical-align: top;
+	color: green;
+}
+#addServices input[name="item_descripition"]{
+	height: 100px;
+	vertical-align: text-top;
+}
+.loaderWrapper{
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 3px;
+	position: absolute;
+	z-index: 500000;
+	margin-top: 10%;
+	margin-left: 40%;
+	display: none;
+}
+.trSuccess{
+	border-left: 10px solid #009933;
+}
+.trDanger{
+	border-left: 10px solid #ff3333;
+}

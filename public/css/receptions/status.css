@@ -1,0 +1,77 @@
+.servingTab{
+    color: #3AA655;
+}
+.servingTab > span{
+    background-color: #3AA655;
+    font-weight: normal;
+}
+.servingTabActive{
+    color: #fff;
+    background-color: #3AA655;
+}
+.pendingTab{
+    color: #FF8833;
+}
+.pendingTab > span{
+    background-color: #FF8833;
+    font-weight: normal;
+}
+.pendingTabActive{
+    color: #fff;
+    background-color: #FF8833;
+}
+.nawcTab{
+    color: #FF404C;
+}
+.nawcTab > span{
+    background-color: #FF404C;
+    font-weight: normal;
+}
+.nawcTabActive{
+    color: #fff;
+    background-color: #FF404C;
+}
+.finishedTab{
+    color: #02A4D3;
+}
+.finishedTab > span{
+    background-color: #02A4D3;
+    font-weight: normal;
+}
+.finishedTabActive{
+    color: #fff;
+    background-color: #02A4D3;
+}
+.pausedTab{
+    color: #AD6F69;
+}
+.pausedTab > span{
+    background-color: #AD6F69;
+    font-weight: normal;
+}
+.pausedTabActive{
+    color: #fff;
+    background-color: #AD6F69;
+}
+.unassignedTab{
+    color: #8D4E85;
+}
+.unassignedTab > span{
+    background-color: #8D4E85;
+    font-weight: normal;
+}
+.unassignedTabActive{
+    color: #fff;
+    background-color: #8D4E85;
+}
+.totalTab{
+    color: #736A62;
+}
+.totalTab > span{
+    background-color: #736A62;
+    font-weight: normal;
+}
+.totalTabActive{
+    color: #fff;
+    background-color: #736A62;
+}

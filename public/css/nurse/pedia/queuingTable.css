@@ -1,0 +1,33 @@
+
+#queuingTable tr td, #queuingTable tr th{
+    font-size: 12px !important;
+}
+#pediaSearchPatient span:hover{
+    cursor: pointer;
+}
+
+
+.bg-purple{
+    background-color: #8D4E85;
+    color: #fff;
+}
+.bg-green{
+    background-color: #5cb85c;
+    color: #fff;
+}
+.bg-blue{
+    background-color: #02A4D3;
+    color: #fff;
+}
+.bg-orange{
+    background-color: #FF8833;
+    color: #fff;
+}
+.bg-brown{
+    background-color: #AD6F69;
+    color: #fff;
+}
+.bg-red{
+    background-color: #e53935;
+    color: #fff;
+}

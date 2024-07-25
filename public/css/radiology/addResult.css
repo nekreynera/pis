@@ -1,0 +1,14 @@
+#addResultWrapper{
+    padding: 30px 0;
+}
+.loaderWrapper{
+    position: absolute;
+    top: 40%;
+    display: none;
+}
+.tableMainWrapper input[name="physician"], input[name="clinicalData"]{
+    width: 300px;
+}
+.tableMainWrapper th{
+
+}

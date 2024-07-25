@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px){
+    #modal-remove-patient .modal-dialog{
+        width:500px;
+    }
+}
+#modal-remove-patient .modal-content .note-header{
+  border: 1px solid #E5E5E5;
+  padding: 2px;
+  /*background-color:  #E6FFE6;*/
+}
+#modal-remove-patient .modal-content .note-body{
+  border: 1px solid #E5E5E5;
+  padding: 2px;
+  background-color: #ffffff;
+}
+#modal-remove-patient input,
+#modal-remove-patient textarea{
+	font-size: 12px;
+}
+#modal-remove-patient input{
+	height: 32px;
+}
+

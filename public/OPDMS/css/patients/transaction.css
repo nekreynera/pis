@@ -1,0 +1,13 @@
+
+#modal-patient-transaction .box,
+#modal-patient-transaction .box{
+	box-shadow: -1px 5px 16px -2px rgba(166,166,166,1);
+	margin-bottom: 5px;
+}
+#modal-patient-transaction .box-header,
+#modal-patient-transaction .box-header{
+	padding: 4px;
+}
+#modal-patient-transaction .box-body{
+	padding: 4px 10px 4px 10px;
+}

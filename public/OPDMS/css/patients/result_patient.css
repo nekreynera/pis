@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px){
+    #modal-check-result .modal-dialog{
+        width:700px;
+    }
+}
+
+#modal-check-result .modal-body .table-responsive{
+  	max-height: 400px;
+  	overflow-y: auto;
+}
+#modal-check-result .search-header{
+  /*background-color: #E6FFE6;*/
+  padding: 3px;
+  border: 1px solid #E5E5E5;
+}
+
+#modal-check-result .search-header span{
+  font-size: 12px;
+}

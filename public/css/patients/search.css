@@ -1,0 +1,72 @@
+#search-modal .modal-content{
+	background-color: rgb(245, 248, 250);
+}
+#search-modal .modal-header, #search-modal .modal-footer{
+	padding: 5px;
+}
+@media screen and (min-width: 768px){
+    #search-modal .modal-dialog{
+    	width: 1300px;
+    }
+   
+}
+#search-modal table th{
+	text-align: center;
+	font-size: 12px;
+}
+#search-modal table td{
+	padding: 3px;
+	font-size: 12px;
+}
+#search-modal table th:nth-child(1){
+	max-width: 32px;
+	min-width: 32px;
+}
+#search-modal table th:nth-child(2),
+#search-modal table th:nth-child(3),
+#search-modal table th:nth-child(4),
+#search-modal table th:nth-child(6){
+	max-width: 50px;
+	min-width: 50px;
+}
+#search-modal table th:nth-child(5){
+	max-width: 17px;
+	min-width: 17px;
+}
+#search-modal table th:nth-child(7){
+	max-width: 88px;
+	min-width: 88px;
+}
+#search-modal table th:nth-child(8){
+	max-width: 68px;
+	min-width: 68px;
+}
+
+#search-modal table td:nth-child(1){
+	max-width: 90px;
+	min-width: 90px;
+	text-align: center;
+}
+#search-modal table td:nth-child(2),
+#search-modal table td:nth-child(3),
+#search-modal table td:nth-child(4),
+#search-modal table td:nth-child(6){
+	max-width: 140px;
+	min-width: 140px;
+}
+#search-modal table td:nth-child(6){
+	text-align: center;
+}
+#search-modal table td:nth-child(5){
+	max-width: 50px;
+	min-width: 50px;
+	text-align: center;
+}
+#search-modal table td:nth-child(7){
+	max-width: 250px;
+	min-width: 250px;
+}
+#search-modal table td:nth-child(8){
+	max-width: 170px;
+	min-width: 170px;
+}

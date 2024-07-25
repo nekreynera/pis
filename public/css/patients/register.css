@@ -1,0 +1,63 @@
+input[type="text"], .select{
+	height: 40px;
+	box-shadow: none;
+	border:1px solid #999999;
+	border-radius: 3px;
+	background-color: #fff;
+}
+input[type="text"]:focus, .select:focus{
+	border:1px solid #00b300;
+	box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.names{
+	text-transform: uppercase;
+}
+.names::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+label, h3{
+	color: #333;
+}
+
+@media (max-width: 500px) {
+	h3{
+		font-size: 18px;
+	}
+}
+#error-code{
+	border:1px solid red;
+	box-shadow: 1px -1px 5px red, -1px 1px 8px #b3ffb3;
+}
+#registerForm .row{
+}
+button[type="submit"], #search-button{
+	height: 40px;
+	padding: 5px 25px;
+	margin-left: 20px;
+}
+.cameraWrapper{
+	font-size: 40px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: #ccc;
+	transition: background-color .3s;
+	color: #000;
+	text-align: center;
+	margin-right: 10px;
+}
+.cameraWrapper:hover{
+	background-color: #bdbdbd;
+	cursor: pointer;
+}
+.profileWrapper label{
+	height: 40px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	transition: background-color .3s;
+	border: 1px solid #333;
+}
+.profileWrapper label:hover{
+	background-color: #fff;
+	color: #333;
+}

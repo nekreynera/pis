@@ -1,0 +1,33 @@
+body{
+	font-size: 12px;
+}
+
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+.scannerform input{
+	border: 1px solid black;
+	border-right: none;
+	border-radius: 0px;
+	text-align: center;
+
+	
+}
+.scannerform input:focus{
+	box-shadow: none;
+	border: 1px solid black;
+	border-right: none;
+
+}
+.scannerform span{
+	border: 1px solid black;
+	border-left: none;
+	border-radius: 0px;
+	background-color: #ffffff; 
+	font-size: 25px;
+}
+.input-group, .input-group input{
+	height: 55px;
+	font-size: 20px;
+}

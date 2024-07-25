@@ -1,0 +1,681 @@
+body{
+	background-color: rgb(244, 255, 244);
+}
+.cashier-container{
+	font-size: 12px;
+	color: rgb(56, 109, 59);
+}
+.patient-information, .cashier-banner, .reciept-number, .patient-payment, .button-payment, .button-body{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+	background-color: rgba(0, 0, 0, 0);
+	background-image: linear-gradient(rgb(253, 253, 253), rgb(204, 227, 204), rgb(204, 227, 204));
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size: auto auto;
+}
+.patient-information{
+	height: 75px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.cashier-banner{
+	background-color: #cfd8dc;
+	padding: 10px;
+	font-weight: bold;"
+}
+.invoicno{
+
+}
+
+.patient-information input{
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 30px;
+}
+.patient-information input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-information input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-information select{
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 30px;
+}
+.patient-information select:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-information select:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.select2-container--default .select2-selection--single{
+	border-radius: 0px;
+}
+ul.select2-results__options li{
+	font-size: 12px;
+}
+
+
+#modal-check-patient input,
+#modal-check-patient select,
+#walk-in-modal input,
+#walk-in-modal select{
+	border-radius: 0px!important;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 30px;
+}
+#modal-check-patient select:focus,
+#modal-check-patient input:focus,
+#walk-in-modal select:focus,
+#walk-in-modal input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+#modal-check-patient select:hover,
+#modal-check-patient input:hover,
+#walk-in-modal select:hover,
+#walk-in-modal input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+
+.requestarea{
+	min-height: 430px;
+	max-height: 430px;
+	overflow-y: auto;
+}
+
+.requestarea table th{
+	text-align: center;
+	text-transform: uppercase;
+}
+.requestarea table td{
+	padding: 4px!important;
+}
+.requestarea table th b{
+	font-size: 10px;
+}
+.requestarea table th:nth-child(4),
+.requestarea table th:nth-child(6),
+.requestarea table th:nth-child(7),
+.requestarea table th:nth-child(8){
+	min-width: 50px;
+	max-width: 50px;
+}
+.cashier-footer{
+	padding: 8px;
+	height: 45px;
+	background-color: rgb(204, 227, 204);
+}
+.cashier-footer:hover{
+	background-color: #e8f5e9;
+}
+.cashier-footer button:hover, .cashier-footer a:hover{	
+	color: #fff;
+}
+.cashier-footer button, .cashier-footer a{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.searchpatientbyhospital button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+}
+.searchreprintid button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+}
+.patient-payment  button:hover, .patient-payment  a:hover{	
+	color: #fff;
+}
+.patient-payment  button, .patient-payment  a{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: -12px;
+    margin-top: 5px;
+}
+
+.reciept-number{
+	
+	padding: 15px;
+	height: 75px;
+	text-transform: uppercase;
+	text-align: center; 
+}
+.reciept-number i{
+	font-size: 14px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+	padding: 5px;
+	border-radius: 2px;
+	border:  1px solid #ccc;
+	cursor: pointer;
+}
+.reciept-number input{
+	margin-left: 70px;
+	border-radius: 0px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	display: none;
+}
+.reciept-number input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.reciept-number input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-payment{
+	margin-top: 10px;
+	padding: 10px;
+}
+.patient-payment .header{
+	padding: 5px;
+	font-size: 18px;
+	text-align: right;
+}
+.patient-payment .formgroup{
+	margin-bottom: 10px;
+}
+
+.patient-payment .formgroup input{
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 30px;
+}
+.patient-payment .formgroup input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-payment .formgroup input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+
+.button-payment{
+	padding: 10px;
+}
+
+.button-payment a{
+	width: 100%;
+	border-radius: 2px;
+	text-align: left;
+	margin-bottom: 3px;
+	font-size: 12px;
+	height: 30px;
+	background-color: transparent;
+	border: transparent;
+	color: rgb(56, 109, 59);
+	/*transition: .1s;*/
+}
+.button-payment a:hover{
+	background-color: #a5d6a7;
+	color: #000000;
+}
+.button-payment a span{
+
+
+	margin-left: 10px;
+	margin-right: 10px; 
+}
+.button-banner{
+	margin: -10px;
+	margin-bottom: 10px;
+	background-color: #2db22d;
+	text-align: center;
+	padding: 7px;
+}
+.button-banner label{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+
+}
+.patient-payment-banner{
+	margin: -10px;
+	margin-bottom: 10px;
+	background-color: #2db22d;
+	text-align: center;
+	padding: 7px;
+}
+.patient-payment-banner label{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+
+}
+.button-body{
+	max-height: 175px;
+	overflow-y: scroll;
+}
+
+
+@media screen and (min-width: 768px){
+    #setreciept-modal .modal-dialog{
+    	width:400px;
+    }
+    #scan-modal .modal-dialog{
+    	width:500px;
+    }
+    #editreciept-modal .modal-dialog{
+    	width:500px;
+    }
+    #secure-modal .modal-dialog{
+    	width: 300px;
+    }
+}
+#editreciept-modal select{
+	padding-right: 0px;
+}
+.modal-content {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#changept-modal .modal-header,
+#changept-modal .modal-body,
+#changept-modal .modal-footer{
+	padding: 8px;
+}
+#refincome-modal{
+	font-size: 12px;
+}
+.modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#refincome-modal .modal-header, #scan-modal .modal-footer{
+	padding: 10px;
+}
+#refincome-modal .modal-body input,
+#refincome-modal .modal-body select,
+#refincome-modal .modal-body span{
+	height: 32px;
+	font-size: 12px;
+	/*border: 1px solid #000;*/
+	box-shadow: none;
+	border-radius: 0px;
+}
+/*#refincome-modal .modal-body input:focus,*/
+#refincome-modal .modal-body input:hover{
+	border: 1px solid #000;
+}
+#refincome-modal .modal-body{
+	padding: 30px;
+}
+#refincome-modal .modal-body span:hover,
+#refincome-modal .modal-body span:hover{
+	background-color: #ffffff;
+	cursor: pointer;
+}
+#refincome-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+
+#scan-modal{
+	font-size: 12px;
+}
+#scan-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#scan-modal .modal-header, #scan-modal .modal-footer{
+	padding: 10px;
+}
+#scan-modal .modal-body input{
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#scan-modal .modal-body{
+	padding: 30px;
+}
+#scan-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+#scan-modal{
+	font-size: 12px;
+}
+#scan-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#scan-modal .modal-header, #scan-modal .modal-footer{
+	padding: 10px;
+}
+#scan-modal .modal-body input{
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#scan-modal .modal-body{
+	padding: 30px;
+}
+#scan-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+
+#secure-modal{
+	font-size: 12px;
+}
+#secure-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#secure-modal .modal-header, #secure-modal .modal-footer{
+	padding: 10px;
+}
+#secure-modal .modal-body .credentialinput{
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#secure-modal .modal-body{
+	padding: 30px;
+}
+#secure-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+#secure-modal {
+   position: absolute;
+   top: 35%;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+}
+
+
+#editreciept-modal{
+	font-size: 12px;
+}
+#editreciept-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#editreciept-modal .modal-header, #scan-modal .modal-footer{
+	padding: 10px;
+}
+#editreciept-modal .modal-body input{
+	height: 35px;
+	text-align: center;
+	font-size: 12px;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#editreciept-modal .modal-body select{
+	height: 35px;
+	text-align: center;
+	font-size: 12px;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#editreciept-modal .modal-body{
+	padding: 30px;
+}
+#editreciept-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+#searchpatient-modal{
+	font-size: 12px;
+}
+#searchpatient-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#searchpatient-modal .modal-header, #searchpatient-modal .modal-footer{
+	padding: 10px;
+}
+#searchpatient-modal .modal-body .input-group input{
+	font-size: 12px;
+}
+#searchpatient-modal .modal-body .input-group input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+#searchpatient-modal .modal-body .input-group input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+#searchpatient-modal .modal-body .input-group input, #searchpatient-modal .modal-body .input-group span{
+	height: 30px;
+	border-radius: 0px;
+}
+#searchpatient-modal .modal-body .input-group span{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+}
+.table-th .col-md-1, .table-th .col-md-3, .table-th .col-md-6, .table-th .col-md-2{
+	border: 1px solid #2db22d;
+	height: 28px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	/*background-color: #2db22d;*/
+	background: linear-gradient(#a5d6a7, #2db22d);
+	color: white;
+	font-weight: bold;
+}
+.table-th .col-md-1 input{
+	margin-top: -2px;
+}
+#searchpatient-modal .table-responsive{
+	padding: 0px;
+	max-height: 350px;
+	overflow: auto;
+	border: 1px solid #81c784;
+}
+#searchpatient-modal td{
+	padding: 2px;
+	text-align: center;
+	color: 
+	color: rgb(56, 109, 59);
+}
+#searchpatient-modal tr{
+	
+	color: rgb(56, 109, 59);
+}
+#searchpatient-modal tr:hover{
+	background-color: #a5d6a7;
+	cursor: pointer;
+	
+}
+#searchpatient-modal td:nth-child(1){
+	width: 45px;
+}
+#searchpatient-modal td:nth-child(2){
+	width: 142px;
+}
+#searchpatient-modal td:nth-child(3){
+	width: 285px;
+	text-transform: uppercase;
+	text-align: left;
+}
+#searchpatient-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+
+
+
+
+#reprint-modal{
+	font-size: 12px;
+}
+#reprint-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#reprint-modal .modal-header, #reprint-modal .modal-footer{
+	padding: 10px;
+}
+#reprint-modal .modal-body .input-group input{
+	font-size: 12px;
+}
+#reprint-modal .modal-body .input-group input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+#reprint-modal .modal-body .input-group input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+#reprint-modal .modal-body .input-group input, #reprint-modal .modal-body .input-group span{
+	height: 30px;
+	border-radius: 0px;
+}
+#reprint-modal .modal-body .input-group span{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+}
+
+#reprint-modal .table-responsive{
+	padding: 0px;
+	max-height: 350px;
+	overflow: auto;
+	border: 1px solid #81c784;
+}
+#reprint-modal td{
+	padding: 2px;
+	text-align: center;
+	color: 
+	color: rgb(56, 109, 59);
+}
+#reprint-modal tr{
+	
+	color: rgb(56, 109, 59);
+}
+#reprint-modal tr:hover{
+	background-color: #a5d6a7;
+	cursor: pointer;
+	
+}
+#reprint-modal td:nth-child(1){
+	width: 45px;
+}
+#reprint-modal td:nth-child(2){
+	width: 142px;
+}
+#reprint-modal td:nth-child(3){
+	width: 285px;
+	text-transform: uppercase;
+	text-align: left;
+}
+#reprint-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+
+
+
+
+.calendar .dropdown-toggle{
+	margin-top: 10px;
+	font-size: 12px;
+	padding: 6px;
+	height: 30px;
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+	border: 1px solid rgb(204, 204, 204);
+}
+.calendar .dropdown-menu{
+	background-color: rgb(244, 255, 244)!important;
+	text-align: center;
+	padding: 10px;
+}
+.calendar .dropdown-menu a:hover{
+	background-color: #a5d6a7; 
+}
+.submitclassificationloader{
+  padding: 12px;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 2;
+  left: 40.5%;
+  top: 25%;
+  display: none;
+
+}
+.submitclassificationloader img{
+  width: 100px;
+  height: 100px;
+}
+.check-patient{
+	width: 100%;
+	height: 100%;
+}
+.reciept-msg{
+	padding: 10px;
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+	text-transform: uppercase;
+	font-weight: bold;
+	display: none;
+}

@@ -1,0 +1,20 @@
+
+.report-header .form-button{
+	margin: 5px 0px 5px 0px;
+}
+.input-group{
+	height: 32px!important;
+}
+input, select{
+	height: 32px!important;
+	font-size: 12px!important;
+}
+.total-wrapper{
+	width: 100%;
+}
+.total-wrapper span{
+	font-weight: bold;
+	padding: 6px;
+	border: 1px solid #ccc;
+	text-align: center;
+}

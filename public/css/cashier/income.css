@@ -1,0 +1,36 @@
+.incomerow input, .incomerow select{
+	border-radius: 0px;
+	height: 30px;
+}
+.incomerow input:hover, .incomerow select:hover{
+	border: 1px solid black
+}
+.incomerow input:focus, .incomerow select:focus{
+	border: 1px solid black
+}
+.addbuttonincome {
+	margin: -9px;
+	padding-left: 10px;
+	display: none;
+
+}
+.addbuttonincome select{
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.addbuttonincome select:hover{
+	border: 1px solid #000;
+}
+.addbuttonincome select:focus{
+	border: 1px solid #000;
+}
+.addbuttonincome button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+   
+
+}

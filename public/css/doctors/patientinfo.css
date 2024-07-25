@@ -1,0 +1,69 @@
+.container-fluid{
+    font-family: Raleway-Medium;
+}
+#patientInfo .modal-body{
+    padding: 50px 50px;
+}
+@media only screen and (max-width:500px) {
+     #patientInfo .modal-body{
+         padding: 15px;
+     }
+}
+
+.patientInfo thead th{
+    background-color: #eee;
+}
+.patientInfo td:nth-child(odd){
+    width: 170px;
+    background-color: #fafafa;
+    border-right: 1px solid #ccc;
+    font-size: 13px;
+}
+.patientInformation td:nth-child(odd){
+	background-color: #eee;
+    border-right: 1px solid #ccc;
+}
+.medicalHistory td:nth-child(odd){
+	background-color: #eee;
+    border-right: 1px solid #ccc;
+}
+.consultationList th{
+	font-size: 14px;
+    background-color: #eee;
+}
+.consultationList td{
+	font-size: 13px;
+}
+
+.vitalSigns td:nth-child(odd){
+    width: 170px;
+    background-color: #fafafa;
+    border-right: 1px solid #ccc;
+    font-size: 13px;
+}
+table td{
+    font-size: 13px;
+}
+.tagClinics{
+    font-size: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+.notificationsWrapper table th{
+    font-size: 13px;
+}
+.notificationsWrapper table td{
+    font-size: 12px;
+}
+
+#notification .modal-body{
+    padding: 20px 50px;
+}
+@media only screen and (max-width: 768px) {
+     #notification .modal-body{
+        padding: 0 15px !important;
+    }
+}
+#notification .modal-body table thead th{
+    background-color: #fafafa;
+}

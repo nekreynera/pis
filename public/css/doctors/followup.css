@@ -1,0 +1,56 @@
+.container-fluid{
+    font-family: Raleway-Medium;
+}
+.followupWrapper label{
+    font-weight: normal;
+    font-size: 12px;
+}
+.followupWrapper form small{
+    font-size: 12px;
+}
+.followupWrapper input[type="text"], .followupWrapper select{
+    box-shadow: none;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.followupWrapper input[type="text"]:focus, .followupWrapper select:focus{
+    border:1px solid #00b300;
+    box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.followupWrapper textarea{
+    box-shadow: none;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.followupWrapper textarea:focus{
+    border:1px solid #00b300;
+    box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.followupWrapper button{
+}
+.followupWrapper table th{
+    font-size: 13px;
+}
+.followupWrapper table td{
+    font-size: 12px;
+}
+.followUpContainer{
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 3px;
+}
+.followUpContainer select{
+    font-size: 12px;
+}
+.followUpContainer textarea{
+    font-size: 13px;
+}
+table th{
+    background-color: #eee;
+}
+.errorshow{
+    display: none;
+}

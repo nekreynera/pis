@@ -1,0 +1,32 @@
+input[type="text"]{
+	height: 40px;
+	box-shadow: none;
+	border-radius: 3px;
+	background-color: #fff;
+}
+input[type="text"]:focus, .select:focus{
+	border:1px solid #00b300;
+	box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+#searchInput{
+	height: 32px;
+	font-size: 12px;
+}
+.searchpatient button{
+	height: 32px;
+	font-size: 12px;
+}
+table{
+	background-color: #e6e6e6;
+}
+
+table th{
+	font-size: 13px;
+	background-color: #cccccc;
+	text-align: center;
+	padding: 4px;
+}
+table td{
+	font-size: 12px;
+	padding: 4px;
+}

@@ -1,0 +1,7 @@
+#patient_infoModal table td{
+    font-size: 12px !important;
+}
+
+#patient_infoModal table td:first-child{
+    background-color: #eee;
+}

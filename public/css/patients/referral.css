@@ -1,0 +1,81 @@
+#referralModal .modal-content{
+	background-color: rgb(245, 248, 250);
+}
+#referralModal .modal-body{
+	padding: 5px 15px;
+}
+#referralModal .modal-body .form-group{
+	margin-bottom: 5px;
+}
+#referralModal .modal-header{
+	padding: 10px;
+	text-align: center;
+}
+#referralModal .modal-footer{
+	padding: 5px;
+}
+#referralModal input, #referralModal textarea, #referralModal select{
+	box-shadow: none;
+	border:1px solid #999999;
+	/*border-radius: 3px;*/
+	background-color: #fff;
+}
+#referralModal input, #referralModal select{
+	height: 35px;
+}
+#referralModal textarea{
+	height: 60px;
+}
+#referralModal input:focus, #referralModal textarea:focus{
+	border:1px solid #00b300;
+	box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.diagnosis{
+	display: none;
+}
+.table-diagnosis{
+	max-height: 240px;
+	position: absolute;
+	background-color: #ffffff;
+	width: 96.7%;
+	/*box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;*/
+	border:1px solid #999999;
+	border-top: none;
+	z-index: 2;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.table-diagnosis table tbody td{
+	padding: 5px;
+}
+
+.admitting{
+	display: none;
+}
+.table-admitting-diagnosis{
+	max-height: 240px;
+	position: absolute;
+	background-color: #ffffff;
+	width: 96.7%;
+	/*box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;*/
+	border:1px solid #999999;
+	border-top: none;
+	z-index: 2;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.table-admitting-diagnosis table tbody td{
+	padding: 5px;
+}
+.searchloader{
+	position: absolute;
+	left: 43%;
+	top: 40%;
+	display: none;
+
+}
+.searchloader img{
+	height: 100px;
+	width: auto;
+}
+

@@ -1,0 +1,31 @@
+/*.leyte{
+    background-color: #ccffe6;
+}
+.wsamar{
+    background-color: #ffb3b3;
+}
+.esamar{
+    background-color: #ffcc99;
+}
+.nsamar{
+    background-color: #f9e6ff;
+}
+.sleyte{
+    background-color: #cce6ff;
+}
+.biliran{
+     background-color: #ffffcc;
+ }
+.outside{
+    background-color: #d9b38c;
+}
+.total{
+    background-color: #333;
+    color: #fff;
+}*/
+#highestCasesTable{
+    font-size: 12px;
+}
+.ui-datepicker-calendar{
+    display: none;
+}

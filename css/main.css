@@ -1,0 +1,328 @@
+/**{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}*/
+body{
+	font: arial, sans-serif;
+	background-color: rgb(35,35,35);
+	padding: 4px;
+	margin: 0 auto;
+}
+#overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0,0,0,0);
+	visibility: hidden;
+	z-index: 99;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+}
+#ribbon{
+	width: 100%;
+	height: 105px;
+	border-bottom: 1px solid #000;
+	background-color: rgb(210,219,234);
+}
+#toolbox{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.toolbox-item{
+	float: left;
+	display: inline-block;
+	width: 50px;
+	height: 92px;
+	margin-top: 5px;
+	margin-left: 4px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+.toolbox-item-img{
+	width: 44px;
+	height: 44px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,.5);
+}
+.toolbox-item-text{
+	font: 10px arial, sans-serif;
+	display: block;
+	width: 44px;
+	height: 30px;
+	margin: 2px;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+	background-color: rgba(0,0,0,0);
+}
+.toolbox-item-darr{
+	width: 46px;
+	height: 6px;
+	margin: 2px;
+	background-image: url('../img/system/downarrow.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0);
+	cursor: pointer;
+}
+.sub-toolbox{
+	position: absolute;
+	display: none;
+	width : 110px;
+	height: 89px;
+	background-color: rgba(255, 128, 110, 1);
+	box-shadow: 2px 2px 2px 2px #ccc;
+}
+#thumbnailBox{
+	display: none;
+	position: absolute;
+	/*float: right;*/
+	width: 70%;
+	padding: 4px;
+	max-width: 715px;
+	/*height: 100%;*/
+	background: linear-gradient(45deg, rgba(44, 49, 54, 1), rgba(127, 127, 127, 1));
+	border: 1px solid rgba(128,128,128,1);
+	border-radius: 15px;
+	overflow: hidden;
+	z-index: 1010;
+}
+#board{
+	padding:4px;
+	overflow: auto;
+	background-color: rgb(127,127,127);
+	box-shadow: 0px -3px 3px 0px rgb(96,96,96); 
+}
+#file-menu{
+	position: absolute;
+	width: 76px;
+	height: 40px;
+	left: 10px;
+	top: 10px;
+	padding: 4px;
+	background-color: rgba(212,212,212,.5);
+	border-radius: 5px;
+	z-index: 80;
+}
+.file-save-open{
+	position: relative;
+	float: left;
+	width: 32px;
+	height: 32px;
+	padding: 2px;
+	cursor: pointer;
+}
+#file-save{
+	background: rgba(0,0,0,0) url('../img/system/save.png') no-repeat 50% center;
+}
+#file-open{
+	background: rgba(0,0,0,0) url('../img/system/open.png') no-repeat 50% center;
+	margin-left: 4px;
+}
+#canvas-holder{
+	position: absolute;
+	overflow: auto;
+}
+#scratch{
+	position: absolute;
+	visibility: hidden;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0);
+}
+#canvas-buffer, #scratch-buffer{
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0);
+}
+#div-scratch{
+	position: absolute;
+	background-color: rgba(0,0,0,0);
+	resize: both;
+	overflow: auto;
+	visibility: visible;
+}
+#gallery{
+	position: absolute;
+	left: 400px;
+	/*width: 228px;*/
+	width: 190px;
+	overflow: hidden;
+	background-color: #fff;
+}
+#gallery-header{
+	font: small-caps bold 16px/1 sans-serif;
+	display: block;
+	width: 100%;
+	height: 20px;
+	border: 1px solid #ccc;
+	padding-top: 4px;
+	text-align: center;
+	color: rgba(127,127,127,.5);
+	vertical-align: middle;
+	background-color: rgb(210,219,234);
+}
+#gallery-header:after{
+	content: "SELECT IMAGE";
+}
+#gallery-display{
+	width: 100%;
+	overflow: scroll;
+	background-color: #eee;
+}
+.img-display{
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+	visibility: hidden;
+}
+#status-box{
+	font: .8em calibri;
+	width: 100%;
+	height: 30px;
+	/*padding-top: 3px;*/
+	background-color: rgb(241,237,237);
+	box-shadow: 0px -4px 5px 0px rgb(64,64,64);
+}
+#clinics-container{
+	float: right;
+	width: 90px;
+	height: 100px;
+	margin-top: 2px;
+	margin-right: 2px;
+	border: 1px solid rgba(128,128,128,.6);
+	border-radius: 5px;
+}
+#current-clinic-img{
+	width: 80px;
+	height: 80px;
+	margin-left: 4px;
+	margin-top: 3px;
+	border: 1px solid rgba(128,128,128,.6);
+	border-radius: 5px;
+	padding: 4px;
+	background-color: rgba(255,255,255,.8);
+}
+#clinics-loader{
+	width: 100%;
+	height: 10px;
+	background: rgba(0,0,0,0) url('../img/system/downarrow.png') no-repeat 50% 50%;
+	cursor: pointer;
+}
+.clinic{
+	position: relative; /* newly added */
+	/*float: right;*/
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	/*margin-top: 10px;
+	margin-right: 4px;*/
+	margin: 4px;
+	border-radius: 15px;
+	padding: 4px;
+	background: rgba(255,127,255,.95);
+	box-shadow: 2px 2px 2px 2px rgba(200,200,200, .5);
+	&:hover{
+		background: darken(orange, 5);
+	}
+}
+.loader{
+	background: #fff url('../img/system/loader.gif') no-repeat 50% center;
+}
+.sb-detail{
+	display: inline-block;
+	width: 250px;
+	height: 70%;
+	margin-right: 4px;
+	padding-top: 4px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaa; 
+}
+.sb-detail-img{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 2px;
+	background-repeat: no-repeat;
+}
+.sb-detail-text{
+	display: inline-block;
+	height: 16px;
+	color: #000;
+}
+#sbm-span-img{
+	background-image: url('../img/system/crosshair.png');
+}
+#sbd1-span-img, #sbd2-span-img{
+	background-image: url('../img/system/size.png');	
+}
+#text-entry-container{
+	position: absolute;
+	width: 287px;
+	height: 225px;
+	left: 100px;
+	top: 100px;
+	background-color: rgba(225, 225, 225, 1);
+	border: 4px solid rgba(112, 146, 190, 1);
+	border-radius: 15px;
+}
+#text-entry{
+	font: 1em calibri;
+	position: absolute;
+	width: 262px;
+	height: 168px;
+	left: 8px;
+	top: 40px;
+	border: 1px solid rgba(112, 146, 190, 1);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 8px;
+	resizable: none;
+	/*white-space: pre-line;*/
+}
+.text-entry-button{
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	top: 4px;
+	border: 1px solid rgba(125,125,125,.8);
+	border-radius: 15px;
+	box-shadow: 2px 2px rgba(125,125,155,.8);
+	cursor: pointer;
+}
+#text-entry-button-ok{
+	left: 8px;
+	background: rgba(0,0,0,0) url('../img/system/ok.png') no-repeat center center;
+}
+#text-entry-button-cancel{
+	left: 44px;
+	background: rgba(0,0,0,0) url('../img/system/remove.png') no-repeat center center;
+}
+#text-entry-dragger{
+	position: absolute;
+	width: 220px;
+	height: 40px;
+	left: 64px;
+	top: 1px;
+	cursor: move;
+	background-color: rgba(0,0,0,0);
+}
+
+

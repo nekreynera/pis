@@ -1,0 +1,98 @@
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+}
+@media (min-width: 768px) {
+    .modal-xxl {
+        width: 100%;
+        max-width:1300px;
+    }
+}
+.fileuploadWrapper{
+    background-color: transparent;
+    border: 4px dashed #ccc;
+    padding: 50px;
+}
+.fileuploadWrapper label{
+    padding: 15px 40px;
+}
+.uploadedFilesWrapper div{
+    display: inline;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.uploadedFilesWrapper img{
+    width: 140px;
+    height: 130px;
+    border-radius: 3px;
+    display: inline;
+}
+.uploadedFilesWrapper img:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+#attachments .modal-body{
+    background-color: #eee;
+    padding: 0 15px;
+}
+#attachments .imgContainer{
+    background-color: red;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+#attachments .imgDetailsContainer{
+    padding: 15px;
+}
+#attachments hr{
+    border: .5px solid #ccc;
+}
+.attachmentsWrapper p{
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.attachmentsWrapper label{
+    font-weight: normal;
+    font-size: 14px;
+}
+.attachmentsWrapper input, .attachmentsWrapper textarea{
+    box-shadow: none;
+}
+.attachmentsWrapper input:focus, .attachmentsWrapper textarea:focus{
+    border: 1px solid #333;
+    box-shadow: none;
+}
+.attachmentsWrapper a{
+    font-size: 13px;
+}
+img.fileFormat{
+    width: 500px;
+    height: 100%;
+}
+#notification th{
+    font-size: 13px;
+}
+#notification td{
+    font-size: 12px;
+}
+#notification .close{
+    opacity: .5;
+    font-size: 40px;
+    outline: none;
+    color: red;
+}
+#notification .close:hover{
+    opacity: 1;
+}
+.badgeIcon{
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: -16px;
+    margin-left: -8px;
+    font-size: 13px;
+}

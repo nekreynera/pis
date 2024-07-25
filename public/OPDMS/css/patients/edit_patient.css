@@ -1,0 +1,25 @@
+.divider{
+	padding-bottom: 7px;
+}
+.divider label{
+	margin-bottom: 0px;
+}
+.divider input, .divider select{
+	height: 32px;
+	font-size: 12px;
+}
+#modal-edit-patient .box,
+#modal-store-patient .box{
+	box-shadow: 0px 0px 19px 2px rgba(230,218,230,1);
+	margin-bottom: 5px;
+}
+#modal-edit-patient .box-header,
+#modal-store-patient .box-header{
+	padding: 4px;
+}
+#modal-edit-patient .box-body{
+	padding: 4px 10px 4px 10px;
+}
+#modal-edit-patient .vital-signs-coontainer{
+	display: none;
+}

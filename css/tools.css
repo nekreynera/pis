@@ -1,0 +1,24 @@
+#tools{
+	width: 86px;
+	height: 117px;
+}
+.tools-clickable{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border: 1px solid rgba(0,0,0,0);
+}
+#tools-text{
+	font: 11px calibri;
+	position: absolute;
+	width: 83px;
+	height: 15px;
+	left: 1px;
+	top: 101px;
+	color: rgba(181,146,164,1);
+	text-align: center;
+	cursor: default;
+}
+#tools-text:before{
+	content: "Tools";
+}

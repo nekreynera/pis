@@ -1,0 +1,23 @@
+#records-modal{
+	font-size: 12px;
+}
+#records-modal .modal-content{
+	background-color: #f5f8fa;
+}
+#records-modal .modal-header, .modal-footer{
+	padding: 8px;
+}
+@media screen and (min-width: 768px){
+    #records-modal .modal-dialog{
+    	width:900px;
+    }
+}
+#consultations-table table{
+	font-size: 12px;
+}
+#consultations-table table th, #consultations-table table td{
+	padding: 6px;
+}
+#consultations-table table th{
+	background-color: #eee;
+}

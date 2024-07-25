@@ -1,0 +1,25 @@
+#sizes{
+	width: 128px;
+	height: 130px;
+}
+.sizes-clickable{
+	position: absolute;
+	width: 122px;
+	height: 25px;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 1px;
+}
+#sizes-text{
+	font: 11px calibri;
+	position: absolute;
+	width: 130px;
+	height: 15px;
+	left: 1px;
+	top: 114px;
+	color: rgba(181,146,164,1);
+	text-align: center;
+	cursor: default;
+}
+#sizes-text:before{
+	content: 'Sizes';
+}

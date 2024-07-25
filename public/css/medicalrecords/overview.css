@@ -1,0 +1,87 @@
+#overview-container{
+	font-size: 12px;
+}
+.search-group{
+	margin: 4px;
+}
+.search-group .input-group input{
+	height: 30px;
+	font-size: 12px;
+}
+#overview-table table{
+	font-size: 12px;
+}
+#overview-table table thead tr{
+	background-color: #ccc;
+}
+#overview-table table th{
+	text-align: center;
+}
+#overview-table table td.report, #overview-table table td.certificate{
+	text-transform: uppercase;
+}
+#overview-table table td.certificate{
+	background-color: #ffc299;
+}
+#overview-table table td.report{
+	background-color: #4dff4d;
+}
+#overview-table table td .btn-circle{
+	color: rgb(46, 109, 164);
+}
+#overview-table table td span.badge-info{
+	background-color: red;
+	color: white;
+	float: right;
+	left: 10px;
+	top: -30px;
+}
+#overview-table table td span.fa-file-text-o{
+	float: center; 
+}
+#overview-table table .pt-info{
+	padding: 4px;
+	cursor: pointer;
+}
+#overview-table table .pt-info span{
+	font-size: 25px;
+}
+#overview-table table .pt-info span{
+	margin: -3px;
+	margin-bottom: -5px;
+}
+#overview-table table .pt-info small{
+	font-size: 8px;
+	color: #000;
+	margin-top: -10px!important;
+	/*background-color: #02A4D3;*/
+}
+#overview-table table td.action a{
+	color: rgb(46, 109, 164);
+} 
+.nav-tabs li a{
+	font-weight: bold;
+}
+.active-warning{
+	background-color: #FF8833;
+}
+.active-primary{
+	background-color: #02A4D3;
+}
+.active-default{
+	background-color: #777;
+}
+.active-warning, .active-primary, .active-default{
+	color: #ffffff;
+}
+
+.badge-primary{
+	background-color: #02A4D3;
+}
+.badge-warning{
+	background-color: #FF8833;
+}
+.badge-primary, .badge-warning{
+	font-weight: bold;
+	color: #fff;
+}

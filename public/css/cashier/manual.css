@@ -1,0 +1,48 @@
+.addbutton {
+	margin: -9px;
+	display: none;
+	padding-left: 10px;
+}
+.addbutton select{
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.addbutton select:hover{
+	border: 1px solid #000;
+}
+.addbutton select:focus{
+	border: 1px solid #000;
+}
+.addbutton button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+
+}
+.participantRow textarea, .participantRow input{
+	border-radius: 0px;
+}
+.participantRow textarea:hover, .participantRow input:hover{
+	border: 1px solid black;
+}
+.participantRow textarea:focus, .participantRow input:focus{
+	border: 1px solid black;
+}
+.participantRow textarea{
+	height: 60px;
+}
+.participantRow input{
+	height: 30px;
+}

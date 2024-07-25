@@ -1,0 +1,135 @@
+
+
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+button.add{
+	background-color: #e0e0e0;
+	border-radius: 2px;
+}
+button.add:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content-medicine table > thead > tr > th {
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+.content-medicine table > tbody > tr > td {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 4px;
+}
+
+
+.editservice{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    line-height: 1.42;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(68,68,68,0.5);
+}
+.editservice i{
+    font-size: 12px
+}
+.editservice:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    color: black;
+}
+.removeservice{
+	margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    line-height: 1.42;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(68,68,68,0.5);
+}
+.removeservice i{
+    font-size: 12px
+}
+.removeservice:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    color: black;
+}
+.modal-content  {
+    /*-webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; */
+    background-color: rgb(245, 248, 250);
+}
+#addService{
+	font-size: 12px;
+}
+
+#addService .item_id{
+	width: 60%;
+	text-align: center;
+}
+
+#addService input:focus,
+#addService textarea:focus,
+#addService select:focus {
+	border: 1px solid #757575;
+	box-shadow: none;
+}	
+#addService input:hover,
+#addService textarea:hover,
+#addService select:hover {
+	border: 1px solid #757575;
+}
+#addService{
+	font-size: 12px;
+}
+
+
+#editservice{
+	font-size: 12px;
+}
+
+#editservice .item_id{
+	width: 60%;
+	text-align: center;
+}
+
+#editservice input:focus,
+#editservice textarea:focus,
+#editservice select:focus {
+	border: 1px solid #757575;
+	box-shadow: none;
+}	
+#editservice input:hover,
+#editservice textarea:hover,
+#editservice select:hover {
+	border: 1px solid #757575;
+}
+
+.nav-tabs{
+	font-weight: bold;
+}
+.unassignedTabactive{
+	background-color: green;
+}
+
+.bsucesss, .bg-success{
+	background-color: #3AA655;
+	color: #ffffff;
+}
+.bwarning, .bg-warning{
+	background-color: #FF8833;
+	color: #ffffff;
+}
+.bdanger, .bg-danger{
+	background-color: #FF404C;
+	color: #ffffff;
+}
+.binfo{
+	background-color: #736A62;
+	color: #ffffff;
+}

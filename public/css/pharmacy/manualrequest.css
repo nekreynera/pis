@@ -1,0 +1,195 @@
+body{
+	font-size: 12px;
+}
+.loaderWrapper{
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 40%;
+	background-color: rgba(255,255,255,.7);
+	z-index: 1;
+	padding: 5px;
+	border-radius: 3px;
+	display: none;
+}
+.loaderWrapper img{
+	width: 100px;
+}
+.loaderWrapper p{
+	font-size: 14px;
+	margin: 0;
+	color: black;
+	font-weight:bold;
+}
+table{
+	font-size: 12px;
+}
+.requsitionWrapper{
+	border:1px solid #ccc;
+	padding: 3px;
+}
+.departmentWrapper{
+	padding-right: 3px;
+}
+.requsitionSelection{
+	border-left:1px solid #ccc;
+}
+.tableWrapper{
+	max-height: 250px;
+	overflow-y: auto;
+}
+div.list-group a{
+	font-size: 12px;
+}
+.search-header input , .search-header span{
+	border-radius: 0px;
+	height: 30px;
+	font-size: 12px;
+}
+.search-header span{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+}
+.search-header input:focus, .search-header input:hover{
+	border: 1px solid #000;
+	box-shadow: none;
+}
+
+.seletecItemsWrapper{
+	border: 1px solid #ccc;
+}
+
+.tableSelectedItems{
+	padding: 10px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+small{
+	font-size: 12px;
+}
+.qty{
+	width: 60px;
+	height: 25px!important;
+	font-size: 12px;
+	text-align: center;
+}
+.reqqty{
+	width: 60px;
+	height: 25px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.submitRequisition{
+	display:none;
+}
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+.departmentWrapper th{
+	text-align: center;
+}
+#itemsDeptTable th, .departmentWrapper th, .seletecItemsWrapper h5{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+	border: 1px solid rgb(221, 221, 221);
+
+
+}
+.seletecItemsWrapper h5{
+	padding: 5px;
+}
+#itemsDeptTable td{
+	padding: 3px;
+}
+#itemsDeptTable td:first-child{
+	text-align: center;
+}
+.tableSelectedItems table th{
+	text-align: center;
+}
+
+.tableSelectedItems table th:nth-child(1){
+	width: 20px;
+}
+.tableSelectedItems table th:nth-child(2){
+	width: 50px;
+}
+.tableSelectedItems table th:nth-child(3){
+	width: 300px;
+}
+.tableSelectedItems table td:nth-child(1),
+.tableSelectedItems table td:nth-child(2),
+.tableSelectedItems table td:nth-child(5),
+.tableSelectedItems table td:nth-child(6){
+	text-align: center;
+}
+
+.tableSelectedItems table th:nth-child(7),
+.tableSelectedItems table th:nth-child(8),
+.tableSelectedItems table th:nth-child(9){
+	width: 100px;
+}
+.tableSelectedItems table td{
+	padding: 3px!important;
+}
+.requisition-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}
+.requisition-footer{
+	padding: 3px;
+	border: 1px solid rgb(221, 221, 221);
+	border-top: 0px;
+}
+.selectedItemsTbody input{
+	border-radius: 0px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+.selectedItemsTbody input:focus, .selectedItemsTbody input:hover{
+	border: 1px solid #000;
+	box-shadow: none;
+}
+.count-badge{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(169, 68, 66);
+	color: #fff;font-weight: bold;
+}
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#pendingtransaction-modal{
+	font-size: 12px;
+}
+#pendingtransaction-modal .modal-footer button, #pendingtransaction-modal .modal-body td button, #pendingtransaction-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}
+#pendingtransaction-modal .modal-body th, #pendingusertransaction-modal th, #pendingtransaction-modal .modal-body td, #pendingusertransaction-modal td{
+	text-align: center;
+	padding: 3px;
+}
+#pendingusermedtransaction-modal .modal-footer button, #pendingusermedtransaction-modal .modal-footer a{
+	font-size: 12px;
+	height: 30px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+
+}
+
+@media screen and (min-width: 768px){
+    #pendingusermedtransaction-modal .modal-dialog{
+    	width:800px;
+    }
+    #pendingtransaction-modal .modal-dialog{
+    	width:700px;
+    }
+  
+}

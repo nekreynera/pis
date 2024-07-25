@@ -1,0 +1,138 @@
+#colors{
+	width: 371px;
+	height: 89px;
+}
+/*Color picker boxes*/
+.color-box{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border: 1px solid rgba(0,0,0,1);
+	border-radius: 1px;
+}
+/*Color selector boxes (Color 1, Color 2 and Edit Colors)*/
+.colors-clickable-selector{
+	position: absolute;
+	width: 42px;
+	height: 66px;
+	top: 2px;
+	border: 1px solid rgba(0,0,0,0);
+	background: rgba(0,0,0,0);
+}
+.colors-clickable-selector:hover{
+	border: 1px solid rgba(165, 206, 248, 1);
+	background-color: rgba(233, 239, 246, 1);
+}
+/*Color selector text boxes*/
+.colors-clickable-selector-text{
+	font: 12px calibri;
+	display: block;
+	white-space: pre;
+	position: absolute;
+	width: 40px;
+	height: 28px;
+	left: 1px;
+	top: 37px;
+	margin-top: 4px;
+	line-height: 93%;
+	text-align: center;
+}
+/* */
+#colors-clickable-selector-img{
+	position: absolute;
+	width: 40px;
+	height: 36px;
+	left: 1px;
+	top: 1px;
+}
+#colors-clickable-selector-color1{
+	left: 8px;
+}
+#colors-clickable-selector-color1-span-container{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 4px;
+	top: 3px;
+	border: 1px solid rgba(128,128,128,1);
+}
+#colors-clickable-selector-color1-span{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	left: 1px;
+	top: 1px;
+	background-color: rgba(120,0,120,1);
+}
+#colors-clickable-selector-color1-text:before{
+	content: 'Color \A 1';
+}
+#colors-clickable-selector-color2{
+	left: 50px;
+}
+#colors-clickable-selector-color2-span-container{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 9px;
+	top: 7px;
+	border: 1px solid rgba(128,128,128,1);	
+}
+#colors-clickable-selector-color2-span{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 1px;
+	top: 1px;
+	background-color: rgba(0,0,120,1);
+}
+#colors-clickable-selector-color2-text:before{
+	content: 'Color \A 2';
+}
+#colors-clickable-selector-color3{
+	left: 319px;
+}
+#colors-clickable-selector-color3-span-container{
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 6px;
+	top: 4px;
+	border: 1px solid rgba(128,128,128,1);	
+}
+#colors-clickable-selector-color3-span{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 1px;
+	top: 1px;
+	/*background-color: rgba(0,255,120,1);*/
+	background-image: url('../img/system/colors/rainbow.png');
+}
+#colors-clickable-selector-color3-text:before{
+	content: 'Edit \A colors';
+}
+
+/*Edit colors "rainbow" image.*/
+.colors-clickable{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+/*	left: 1px;
+	top: 1px;
+*/	border: none;
+}
+#colors-text{
+	font: 11px calibri;
+	position: absolute;
+	width: 360px;
+	height: 15px;
+	left: 1px;
+	top: 73px;
+	color: rgba(181,146,164,1);
+	text-align: center;
+	cursor: default;
+}
+#colors-text:before{
+	content: 'Colors';
+}

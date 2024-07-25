@@ -1,0 +1,289 @@
+
+.transaction-body table th:nth-child(3),
+.transaction-body table th:nth-child(4),
+.transaction-body table th:nth-child(6),
+.transaction-body table th:nth-child(7),
+.transaction-body table th:nth-child(8),
+.transaction-body table th:nth-child(9),
+.transaction-body table th:nth-child(10),
+.transaction-body table th:nth-child(11),
+.transaction-body table th:nth-child(12),
+.transaction-body table th:nth-child(13){
+	min-width: 100px;
+}
+
+.transaction-body table th:nth-child(5),
+.transaction-body table th:nth-child(6){
+	min-width: 200px;
+}
+
+.transaction-table{
+	min-height: 300px;
+	max-height: 300px;
+	overflow: auto;
+}
+.transaction-table table th{
+	text-align: center;
+	text-transform: uppercase;
+}
+.transaction-table table i{
+	font-size: 18px;
+}
+.transaction-table table td{
+	padding: 4px!important;
+	text-transform: uppercase;
+}
+.transaction-table table th b{
+	font-size: 10px;
+}
+.cashier-footer span{
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+.patient-information span{
+	border-radius: 0px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 30px;
+}
+
+.patient-information select{
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 30px;
+}
+.patient-information select:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-information select:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.patient-information button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}
+.change-patient{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}
+.tablemonthly{
+	min-height: 223px;
+	max-height: 223px;
+	overflow-y: auto;
+}
+.patient-payment th:hover{
+	background-color: #a5d6a7;
+	color: #000000;
+}
+.monthlybanner{
+	background-color: rgba(51, 174, 42, 0.5);
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 5px;
+}
+.monthly{
+	display: none;
+}
+.tablemonthly{
+	color: #000000;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5ebee+3,d7dee3+24,e5ebee+63,f5f7f9+100 */
+	background: #e5ebee; /* Old browsers */
+	background: -moz-linear-gradient(top, #e5ebee 3%, #d7dee3 24%, #e5ebee 63%, #f5f7f9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e5ebee 3%,#d7dee3 24%,#e5ebee 63%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e5ebee 3%,#d7dee3 24%,#e5ebee 63%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+}
+#myTable tbody tr{
+	cursor: pointer;
+}
+
+.modal-content {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+#transaction-modal{
+	font-size: 12px;
+}
+#transaction-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#transaction-modal .modal-header, #transaction-modal .modal-footer{
+	padding: 10px;
+}
+#transaction-modal .modal-body input{
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#transaction-modal .modal-body td, #transaction-modal .modal-body th{
+	padding: 5px;
+}
+#transaction-modal .modal-body{
+	padding: 30px;
+}
+
+#changept-modal .modal-header,
+#changept-modal .modal-body,
+#changept-modal .modal-footer{
+	padding: 8px;
+}
+#changept-modal{
+	font-size: 12px;
+}
+#changept-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#changept-modal .modal-header, #scan-modal .modal-footer{
+	padding: 10px;
+}
+#changept-modal .modal-body input,
+#changept-modal .modal-body select,
+#changept-modal .modal-body span{
+	height: 32px;
+	font-size: 12px;
+	/*border: 1px solid #000;*/
+	box-shadow: none;
+	border-radius: 0px;
+}
+/*#refincome-modal .modal-body input:focus,*/
+#changept-modal .modal-body input:hover{
+	border: 1px solid #000;
+}
+#changept-modal .modal-body{
+	padding: 30px;
+}
+#changept-modal .modal-body span:hover,
+#changept-modal .modal-body span:hover{
+	background-color: #ffffff;
+	cursor: pointer;
+}
+#changept-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+
+
+#transaction-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+#transaction-modal .modal-body th{
+	text-align: center;
+}
+#transaction-modal .modal-body th:nth-child(1){
+	min-width: 200px;
+}
+#transaction-modal .modal-body th:nth-child(4),
+#transaction-modal .modal-body th:nth-child(5),
+#transaction-modal .modal-body th:nth-child(6){
+	width: 70px;
+}
+@media screen and (min-width: 768px){
+    #transaction-modal .modal-dialog{
+    	width:700px;
+    }
+    #ore-modal .modal-dialog{
+    	width: 600px;
+    }
+    
+}
+#ore-modal{
+	font-size: 12px;
+}
+#ore-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#ore-modal .modal-header, #ore-modal .modal-footer{
+	padding: 10px;
+}
+#ore-modal .modal-body input{
+	height: 30px;
+	font-size: 12px;
+	box-shadow: none;
+	border-radius: 0px;
+}
+#ore-modal .modal-body span{
+	font-size: 45px;
+	text-align: center;
+	margin-left: 25px;
+}
+#ore-modal .modal-body input:focus, #ore-modal .modal-body input:hover{
+	border: 1px solid black;
+}
+
+#ore-modal .modal-body{
+	padding-right: 0px;
+}
+#ore-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}
+.cashier-footer input{
+	border-radius: 0px;
+	height: 25px!important;
+	margin-bottom: 2px;
+	text-align: right;
+}
+.cashier-footer input:focus{
+	box-shadow: none;
+	border: 1px solid black;
+}
+.cashier-footer input:hover{
+	box-shadow: none;
+	border: 1px solid black;
+}
+#reprint-modal, #genarate-modal{
+	font-size: 12px;
+}
+#genarate-modal .modal-content{
+	background-color: rgb(244, 255, 244);
+}
+#genarate-modal .modal-header, #genarate-modal .modal-footer{
+	padding: 10px;
+}
+#genarate-modal .modal-footer button{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(231, 236, 241), rgb(173, 188, 209));
+}
+#genarate-modal .modal-body input, #genarate-modal .modal-body select{
+	font-size: 12px;
+	border-radius: 0px;
+	height: 30px;
+}
+#genarate-modal .modal-body input:focus, #genarate-modal .modal-body select:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+#genarate-modal .modal-body input:hover, #genarate-modal .modal-body select:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}

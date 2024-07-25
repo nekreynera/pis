@@ -1,0 +1,6 @@
+table#list-information-table td{
+	font-size: 12px;
+}
+table#list-information-table tr td:nth-child(1){
+	max-width: 70px;
+}

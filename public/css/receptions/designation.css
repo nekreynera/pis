@@ -1,0 +1,177 @@
+.doctorsMainWrapper{
+    border-right: 1px solid #ccc;
+}
+.doctorsWrapper{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.doctorsWrapper h3{
+    margin-top: 0;
+}
+.doctorsWrapper a{
+    margin-bottom: 15px;
+}
+.patientsOverview{
+	padding-bottom: 150px;
+}
+/*table .unassigned{
+    border-left: 10px solid #9575cd;
+}
+table .pending{
+    border-left: 10px solid orange;
+}
+table .serving{
+    border-left: 10px solid #00e676;
+}
+table .cancel{
+    border-left: 10px solid #e53935;
+}
+table .finished{
+    border-left: 10px solid #03a9f4;
+}
+table .paused{
+    border-left: 10px solid #795548;
+}*/
+.legendDiv{
+    display: block;
+    padding-left:15px;
+}
+.legendUnassigned{
+    width: 5px;
+    height: 15px;
+    background-color: #9575cd;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendPending{
+    width: 5px;
+    height: 15px;
+    background-color: orange;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendServing{
+    width: 5px;
+    height: 15px;
+    background-color: #00e676;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendFinished{
+    width: 5px;
+    height: 15px;
+    background-color: #03a9f4;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendPaused{
+    width: 5px;
+    height: 15px;
+    background-color: #795548;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendCanceled{
+    width: 5px;
+    height: 15px;
+    background-color: #e53935;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.legendDropdown{
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+}
+.notifyBadgeNumber{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -7px;
+    background-color: indianred;
+    font-weight: normal;
+    z-index: 5;
+}
+.notifyFollowUpBadgeNumber{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -48px;
+    background-color: indianred;
+    font-weight: normal;
+    z-index: 5;
+}
+.patientsWrapper .filterPatients h2{
+    margin: 0;
+}
+.logsStatus h2{
+    margin: 0;
+}
+.logsStatus .divider{
+    margin: 0 15px 0 15px;
+    color: #ccc;
+}
+.logsStatus .finished{
+    background-color: #337ab7;
+    font-size: 15px;
+    font-weight: normal;
+}
+.logsStatus .pending{
+    background-color: orange;
+    font-size: 15px;
+    font-weight: normal;
+}
+.logsStatus .paused{
+    background-color: saddlebrown;
+    font-size: 15px;
+    font-weight: normal;
+}
+.logsStatus .canceled{
+    background-color: red;
+}
+.logsStatus .unassigned{
+    background-color: #9575cd;
+    font-size: 15px;
+    font-weight: normal;
+}
+.logsStatus .serve{
+    background-color: green;
+    font-size: 15px;
+    font-weight: normal;
+}
+.logsStatus .finLabel{
+    font-size: 15px;
+    color: #337ab7;
+}
+.logsStatus .penLabel{
+    font-size: 15px;
+    color: orange;
+}
+.logsStatus .pauLabel{
+    font-size: 15px;
+    color: saddlebrown;
+}
+.logsStatus .canLabel{
+    font-size: 15px;
+    color: red;
+}
+.logsStatus .unaLabel{
+    font-size: 15px;
+    color: #9575cd;
+}
+.logsStatus .servLabel{
+    font-size: 15px;
+    color: green;
+}
+.logsStatus{
+    vertical-align: text-bottom;
+}
+.logsStatus .totalLabel{
+    color: #333;
+    font-size: 15px;
+}
+.logsStatus .total{
+    background-color: #333;
+    font-size: 15px;
+    font-weight: normal;
+}
+

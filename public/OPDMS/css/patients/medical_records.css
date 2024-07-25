@@ -1,0 +1,36 @@
+
+.sidebar-special li{
+	background-color: #222d32;
+	
+	color: #b8c7ce;
+
+}
+.sidebar-special li a{
+	color: #b8c7ce;
+}
+#modal-medical-records .content-container, 
+#modal-medical-records .side-bar-container{
+	min-height: 450px;
+	max-height: 450px;
+	overflow: auto;
+	padding: 0px;
+}
+
+
+#modal-medical-records .side-bar-container{
+	background-color: #222d32;
+}
+#modal-medical-records .content-container{
+	background-color: #ecf0f5;
+}
+.content-container .mid-content-header{
+	padding: 10px 25px 10px 15px;
+}
+.content-container .mid-content-body{
+	padding: 8px;
+}
+.content-container .mid-content-body .box{
+	min-height: 390px;
+	max-height: 390px;
+}
+

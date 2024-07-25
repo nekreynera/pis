@@ -1,0 +1,62 @@
+.container-fluid{
+    font-family: Raleway-Medium;
+}
+label{
+    font-size: 14px;
+}
+.container-fluid input{
+    height: 40px;
+    box-shadow: none;
+    border:1px solid #999999;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 15px;
+    z-index:0;
+}
+.container-fluid .form-group{
+    z-index: 0;
+}
+.container-fluid input:focus{
+    border:1px solid #00b300;
+    box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.container-fluid input:hover{
+    background-color: #fafafa;
+}
+.addonIcon{
+    background-color: #ccc;
+    padding: 0px 15px;
+    border:2px solid #ccc;
+}
+.addonIcon i{
+    font-size: 22px;
+}
+.container-fluid button{
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color .3s;
+}
+.profileWrapper{
+    text-align: center;
+    background-color: #ccc;
+    padding: 25px;
+    border-radius: 5px;
+}
+.profileWrapper .fa-user-o{
+    font-size: 380px;
+}
+.profileWrapper img{
+}
+.maxUpload{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.profileWrapper, form strong{
+    font-size: 13px;
+}
+.doctorsOrderWrapper{
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+}

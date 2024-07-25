@@ -1,0 +1,95 @@
+body{
+	background-image: url('../../images/opd.png');
+	width: 100%;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.logoWrapper img{
+	width: 120px;
+	display: inline-block;
+}
+.loginBannerTitle h1{
+	font-weight: bold;
+	border-top: 2px solid #fff;
+	padding-top: 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+.loginBannerTitle h3{
+	margin-bottom: 0;
+	padding: 0;
+	color: #fff;
+}
+input[type="text"]{
+	background-color: rgba(0,0,0,.2);
+	height: 45px;
+	border:2px solid #fff;
+	color: #fff;
+	font-size: 17px;
+	transition: .3s;
+}
+input[type="text"]:focus{
+	border:2px solid #fff;
+	background-color: rgba(0,0,0,.5);
+}
+input[type="text"]:hover{
+	background-color: rgba(0,0,0,.5);
+}
+input[type="password"]{
+	background-color: rgba(0,0,0,.2);
+	height: 45px;
+	border:2px solid #fff;
+	color: #fff;
+	font-size: 17px;
+	transition: .3s;
+}
+input[type="password"]:focus{
+	border:2px solid #fff;
+	background-color: rgba(0,0,0,.5);
+}
+input[type="password"]:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.addonIcon{
+	background-color: #fff;
+	padding: 0px 15px;
+	border:2px solid #fff;
+}
+.addonIcon i{
+	font-size: 22px;
+	color: #006699;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder{ /* WebKit browsers */
+    color:#ccc;
+}
+input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+    color:#ccc;
+}
+input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder{ /* Mozilla Firefox 19+ */
+    color:#ccc;
+}
+input[type="text"]::-ms-input-placeholder, input[type="password"]::-ms-input-placeholder{ /* Internet Explorer 10+ */
+    color:#ccc;
+}
+.btn{
+	background-color: #fff;
+	height: 45px;
+	font-size: 17px;
+	color: green;
+	transition: .2s;
+}
+.btn:focus{
+	outline: none;
+	box-shadow: none;
+}
+.btn:hover{
+	background-color: #eee;
+	color: green;
+}
+form h1{
+	color: #fff;
+}

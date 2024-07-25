@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+}
+@media (min-width: 768px) {
+    .modal-xxl {
+        width: 100%;
+        max-width:1300px;
+    }
+}
+.loaderWrapper{
+    position: absolute;
+    z-index:500000;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    border-radius: 5px;
+    left: 45%;
+    top: 10%;
+}

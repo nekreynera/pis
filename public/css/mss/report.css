@@ -1,0 +1,95 @@
+ #mssreportgenarete{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: .5in;
+    padding-top: 0px;
+}
+#mssreportgenarete .panel-heading{
+    background-color: white;
+    border-bottom: none;
+    text-align: center;
+}
+#mssreportgenarete .panel-body{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#mssreportgenarete .panel-body select{
+	margin-top: 35px;
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+#mssreportgenarete .panel-body input{
+border-radius: 2px;
+}
+.submitclassificationgenerate{
+    padding: 12px;
+    border-radius: 3px;
+    position: fixed;
+    left: 45.5%;
+    top: 20%;
+    display: none;
+    
+}
+.submitclassificationgenerate img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 768px) {
+    .submitclassificationgenerate{
+      left: 35%;
+    }
+}
+
+
+
+
+#mssreport{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1px;
+    height: 100%;
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+}
+#mssreport .table-bordered > thead > tr > th, 
+#mssreport .table-bordered > tbody > tr > th, 
+#mssreport .table-bordered > tfoot > tr > th, 
+#mssreport .table-bordered > thead > tr > td, 
+#mssreport .table-bordered > tbody > tr > td, 
+#mssreport .table-bordered > tfoot > tr > td{
+   border: 1px solid black!important; 
+}
+#mssreport p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.print_classification .btn-fab{
+    position: fixed !important;
+    top: 60px;
+    right: 10px;
+    height: 70px!important;
+    width: 70px!important;
+}
+.print_classification .btn-fab i{
+    font-size: 25px;    
+}
+#print_classification{
+    bottom: 20px;
+}
+@media print{
+    body
+    {
+      margin: -10mm -10mm -10mm -10mm;
+      font-size: 16px;
+    }
+    #print_classification{
+        display: none;
+    }
+}
+table#geographic-table{
+    margin-top: 15px;
+}
+
+table#geographic-table thead tr th{
+    text-align: center;
+    padding: 2px;
+    vertical-align: middle;
+}

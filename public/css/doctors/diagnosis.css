@@ -1,0 +1,130 @@
+.container-fluid{
+    font-family: Raleway-Medium;
+}
+.loaderWrapper{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    margin-top:20%;
+    margin-left: 43%;
+    z-index: 2;
+    display: none;
+}
+.loaderWrapper p{
+    color: #000;
+    text-align: center;
+}
+.loaderImageWrapper{
+    border-radius: 4px;
+    padding: 15px;
+    position: absolute;
+    margin-top:1%;
+    margin-left: 43%;
+    z-index: 2;
+    display: none;
+    background-color: rgba(0,0,0,.9);
+}
+.loaderImageWrapper p{
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+table th{
+    background-color: #eee;
+}
+.icdWrapper span.input-group-addon{
+    padding: 0px 15px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    z-index:0;
+}
+.icdWrapper span.input-group-addon:hover{
+     background-color: darkgray;
+     cursor: pointer;
+}
+.icdWrapper span.input-group-addon i{
+    color: #fff;
+    font-size: 20px;
+}
+.icdWrapper{
+    padding: 5px 20px 0px 20px;
+}
+.icdWrapper table td{
+    font-size: 14px;
+}
+.icdWrapper input[type="text"]{
+    height: 40px;
+    box-shadow: none;
+    border:1px solid #c0c0c0;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index:0;
+}
+.icdWrapper input[type="text"]:focus{
+    border:1px solid #00b300;
+    box-shadow: 1px -1px 5px #b3ffb3, -1px 1px 8px #b3ffb3;
+}
+.icdWrapper .col-md-6{
+     margin-bottom: 10px;
+}
+.diagnosisWrapper input[type="text"]{
+    height: 40px;
+    box-shadow: none;
+    border:1px solid #c0c0c0;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index:0;
+}
+.diagnosisWrapper span.input-group-addon{
+    padding: 0px 15px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    z-index:0;
+}
+.diagnosisWrapper span.input-group-addon:hover{
+    cursor: pointer;
+}
+.diagnosisWrapper span.input-group-addon i{
+    color: #fff;
+    font-size: 20px;
+}
+.icd10codes .icdCodesBtn{
+    padding: 7px 15px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.menusConsultations {
+    margin-bottom: 5px;
+}
+.menusConsultations i{
+    font-size: 25px;
+}
+.closeX{
+    font-size: 40px;
+    color: indianred;
+    opacity: 1;
+}
+.icd10codesContainer .input-group{
+    position: fixed;
+    z-index: 5;
+    right: 10px;
+}
+.icd10codesContainer input[type="text"]{
+    height: 37px;
+    border-right: none;
+    color: #333;
+    visibility: hidden;
+}
+.icd10codesContainer .input-group-addon{
+    background-color: lawngreen;
+    border: 1px solid green;
+    padding: 8px 13px;
+    transition: background-color .2s;
+}
+.icd10codesContainer .input-group-addon:hover{
+    cursor: pointer;
+}
+.icd10codesContainer .input-group-addon i{
+    font-size: 17px;
+    color: #000;
+}

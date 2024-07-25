@@ -1,0 +1,18 @@
+.patient_queue_wrapper table{
+    font-size: 12px;
+}
+.patient_queue_wrapper .selectable_table table tbody tr:hover td{
+    cursor: pointer;
+    background-color: #d3f8d3 !important;
+    color: #000 !important;
+    font-weight: bold;
+}
+.patient_queue_wrapper .selectable_table table tbody tr:hover td strong{
+    color: #000 !important;
+}
+.patient_queue_wrapper #queue_table table .selected_row td, .patient_queue_wrapper table .selected_row td strong{
+    cursor: pointer;
+    background-color: #d3f8d3 !important;
+    color: #000 !important;
+    font-weight: bold;
+}

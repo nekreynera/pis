@@ -1,0 +1,110 @@
+#malasakit-form{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+#malasakit-form .panel-header{
+	text-align: center;
+}
+#malasakit-form table td{
+	padding: 2px 5px;
+	text-transform: capitalize;
+}
+#malasakit-form table th{
+	background-color: rgb(102, 187, 106);
+	color: white;
+}
+
+#malasakit-form table input, #malasakit-form table select{
+	border: none;
+	border-bottom: 1px solid #808080;
+	font-size: 12px;
+	height: 30px;
+	border-radius: 0px;
+}
+#malasakit-form table textarea{
+	border: none;
+	border: 1px solid #808080;
+	font-size: 12px;
+	border-radius: 0px;
+	height: 70px;
+
+}
+#malasakit-form table input[type='checkbox']{
+	margin-top: 0px;
+	height: 15px;
+	padding-top: 10px;
+}
+#malasakit-form table span{
+	background-color: #fff;
+	border: none;
+	border-bottom: 1px solid #808080;
+	border-radius: 0px;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+/*#malasakit-form table input:focus, #malasakit-form table input:hover{
+	box-shadow: none;
+	border: 1px solid #808080;
+}*/
+#malasakit-form table p{
+	margin: 0px;
+	font-size: 10px;
+}
+#malasakit-form table span#fa-icon{
+	background: linear-gradient(rgba(253, 253, 253, 1), rgba(204,227,204,1), rgba(204,227,204,1));
+	border-radius: 7px;
+	border: 1px solid rgba(204,227,204,1);
+	padding: 0px 7px;
+	height: 20px;
+}
+.submit_malasakit .btn-fab{
+  position: fixed !important;
+  right: 20px;
+  height: 70px!important;
+  width: 70px!important;
+}
+.submit_malasakit .btn-fab i{
+  font-size: 25px;
+}
+#submit_malasakit{
+  bottom: 20px;
+}
+#familytable td:nth-child(1){
+	min-width: 250px;
+}
+#familytable td:nth-child(2){
+	max-width: 162px;
+}
+#familytable td:nth-child(3){
+	min-width: 110px;
+}
+#familytable td:nth-child(4){
+	min-width: 120px;
+}
+.submit_classification button{
+  border-radius: 15px!important;
+}
+
+.submit_classification .btn-fab{
+  position: fixed !important;
+  right: 20px;
+  height: 70px!important;
+  width: 70px!important;
+}
+.submit_classification .btn-fab i{
+  font-size: 25px;
+}
+#submit_classification{
+  bottom: 20px;
+}
+.submit_classification .btn-print{
+  position: fixed !important;
+  right: 20px;
+  height: 70px!important;
+  width: 70px!important;
+}
+.submit_classification .btn-print i{
+  font-size: 25px;
+}

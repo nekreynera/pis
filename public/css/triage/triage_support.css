@@ -1,0 +1,26 @@
+.vitalSignsRowWrapper{
+	margin: 0;
+}
+.input-group-addon{
+	border:1px solid #999999;
+	border-radius: 3px;
+	background-color: #d9d9d9;
+}
+input[name="barcode"]{
+	height: 70px;
+	text-align: center;
+	font-size: 25px;
+	background-color: transparent;
+	border: 2px solid #00b300;
+	border-radius: 5px;
+}
+input[name="barcode"]:focus{
+	border:2px solid #00b300;
+	box-shadow: 5px -5px 12px #b3ffb3, -5px 5px 12px #b3ffb3;
+}
+.patient_info{
+	border-right: 1px solid #ccc;
+}
+#qrcodeModal .modal-body{
+	padding: 50px;
+}

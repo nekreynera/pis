@@ -1,0 +1,1 @@
+<?php echo $consultation->consultation; ?>

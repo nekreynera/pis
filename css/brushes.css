@@ -1,0 +1,27 @@
+#brushes{
+	width: 166px;
+	height: 145px;
+}
+.brushes-clickable{
+	position: absolute;
+/*	width: 40px;
+	height: 40px;*/
+	border: 1px solid rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+	border-radius: 2px;
+}
+
+#brushes-text{
+	font: 11px calibri;
+	position: absolute;
+	width: 162px;
+	height: 15px;
+	left: 1px;
+	top: 129px;
+	color: rgba(181,146,164,1);
+	text-align: center;
+	cursor: default;
+}
+#brushes-text:before{
+	content: "Brushes";
+}

@@ -1,0 +1,22 @@
+.action-button button,
+.action-search input
+{
+	margin-bottom: 5px;
+}
+.trial-click{
+	position: absolute;
+	display: none;
+	transition: 0s;
+}
+.trial-click button, .trial-click a{
+	text-align: left;
+	transition: all .3s ease-in-out;
+	padding: 3px;
+}
+
+.queing-status-button button#selected{
+	font-weight: bold;
+	color: black !important;
+	border-top: 3px solid #00a65a;
+	background-color: #eeeeee!important;
+}

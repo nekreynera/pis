@@ -1,0 +1,22 @@
+.sub-list-action button,
+.sub-list-action input{
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 560px) {
+    .col-xxs-12{
+        width: 100%!important;
+    }
+    .col-xxs-12{
+        width: 100%!important;
+    }
+}
+.trial-click{
+	position: absolute;
+	display: none;
+	transition: 0s;
+}
+.trial-click button, .trial-click a{
+	text-align: left;
+	transition: all .3s ease-in-out;
+}

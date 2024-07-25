@@ -1,0 +1,12 @@
+#patientinfo-modal{
+	font-size: 12px;
+}
+#patientinfo-modal .modal-content{
+	background-color: #f5f8fa;
+}
+#patientinfo-modal .modal-header, .modal-footer{
+	padding: 8px;
+}
+#patientinfo-table table td:nth-child(1){
+	background-color: #eee;
+}

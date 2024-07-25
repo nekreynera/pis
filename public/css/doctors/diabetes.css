@@ -1,0 +1,174 @@
+table.table-condensed tr .medicalHistoryAlphabeth {
+	background-color: #BDC3C7;
+	font-weight: bold;
+	color: white;
+}
+
+table.table-condensed tr .ABackground {
+	/*background-color: #818589;*/
+	background-color: #D98880;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .CCurrentTreatment {
+	background-color: #C39BD3;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .BDiabetesEducation {
+	background-color: #5499C7;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .DOtherMedicalConditions {
+	background-color: #48C9B0;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .EHospitalizations {
+	background-color: #52BE80;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .FSurgeriesOperations {
+	background-color: #F4D03F;
+	font-weight: bold;
+	color: white;
+}
+
+table.table-condensed tr .GFamilyDiseases {
+	background-color: #EB984E;
+	font-weight: bold;
+	color: white;
+}
+
+table.table-condensed tr .HOBGYNEHistory {
+	background-color: #95A5A6;
+	font-weight: bold;
+	color: white;
+}
+
+table.table-condensed tr .IPersonalHistory {
+	background-color: #5D6D7E;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .JSignsandSymptoms {
+	background-color: #F1948A;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .IIINITIALPHYSICALEXAMINATION {
+	background-color: #85C1E9;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+table.table-condensed tr .IVCONFIRMEDDIABETICCOMPLICATIONS {
+	background-color: #BB8FCE;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+/*#accordion .PATIENTRECORD-FOLLOW-UPASSESSMENTFORM {
+	background-color: #626567;
+	border-color: grey;
+	font-weight: bold;
+	color: #ECF0F1;
+}*/
+table.table-condensed tr .PATIENTRECORD-FOLLOW-UPASSESSMENTFORM {
+	background-color: #626567;
+	font-weight: bold;
+	color: #ECF0F1;
+}
+
+#accordion .ui-state-active{
+	background-image:none;
+	background-color:#626567!important;
+	color:#ECF0F1!important;
+	border: 1px solid #454545!important;
+}
+
+#accordion .ui-state-default{
+	background-image:none;
+	background-color:#E3E9E6;
+	color:#454545;
+}
+
+table.table-condensed tr .diabetes-input {
+	padding: 0px;
+	vertical-align: middle;
+}
+
+table.table-condensed tr .diabetes-date {
+	padding: 0px;
+}
+
+.input-group-sm .form-control {
+    z-index: 0;
+}
+        
+.radioLabel2 {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.table-scroll {
+	position: relative;
+	width:100%;
+	z-index: 1;
+	margin: auto;
+	overflow: scroll;
+	height: 500px;
+}
+.table-scroll table {
+	width: 100%;
+	min-width: 1280px;
+	margin: auto;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.table-scroll .main-table td {
+	padding: 5px 10px;
+	min-width: 220px;
+	vertical-align: top;
+}
+.main-table td:first-child {
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	background: white;
+}
+.main-table td:first-child {
+	z-index: 1;
+	background-color: #EBEDEF;
+}
+/*.group-font {
+	font-size: 12px;
+	background-color: #626567;
+	color: white;
+}
+.group-font a {
+	color: white;
+}
+.group-sub-font {
+	font-size: 12px;
+	background-color: #BDC3C7;
+	cursor: pointer;
+}
+.group-sub-font:hover {
+	background-color: #ACB2B9;
+}
+.group-sub-font a {
+	color: #464748;
+}
+.active-category {
+	background-color: #ACB2B9; 
+}*/

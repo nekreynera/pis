@@ -1,0 +1,51 @@
+.ui-datepicker-calendar{
+    display: none;
+}
+#chargetofund{
+	color: black;
+}
+#chargetofund th{
+	text-align: center;
+}
+#chargetofund th, #chargetofund td{
+	padding: 3px;
+	font-size: 11px;
+}
+#dispensedmeds{
+	color: black;
+}
+#dispensedmeds th{
+	text-align: center;
+}
+#dispensedmeds th, #dispensedmeds td{
+	padding: 3px;
+	font-size: 11px;
+}
+#dispensedmeds span{
+	font-size: 11px;
+}
+#demographictable{
+	color: black;
+}
+#demographictable th{
+	text-align: center;
+}
+#demographictable th, #demographictable td{
+	padding: 3px;
+	font-size: 11px;
+}
+/*#demographictable tr, #demographictable td, #demographictable th{
+	border: 1px solid black
+}*/
+
+.loaderWrapper{
+    position: absolute;
+    z-index:500000;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+    left: 45%;
+  	top: 50%;
+}

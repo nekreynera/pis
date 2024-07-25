@@ -1,0 +1,63 @@
+body{
+	font-size: 12px;
+}
+
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+.inventory input, .inventory button{
+	font-size: 12px;
+}
+.inventory input{
+	border-radius: 0px;
+	box-shadow: none;
+	text-transform: uppercase;
+}
+.inventory input:focus{
+	border: 1px solid #757575;
+	box-shadow: none;
+}	
+.inventory input:hover{
+	border: 1px solid #757575;
+}	
+.inventory .select-date{
+	background-color:  #90a4ae;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.table-banner{
+	padding: 10px;
+	background-color: #e0e0e0;
+}
+.table-banner h4{
+	padding-top: 8px;
+}
+.table-banner button{
+	padding-top: 4px;
+	height: 30px;
+}
+.content-inventory table th{
+	text-align: center;
+}
+.content-inventory table td{
+	text-transform: uppercase;
+}
+.content-inventory table th:nth-child(1){
+	width: 10px!important;
+	padding: 0px!important;
+}
+.content-inventory table td:nth-child(7),
+.content-inventory table td:nth-child(10),
+.content-inventory table td:nth-child(3),
+.content-inventory table td:nth-child(5),
+.content-inventory table td:nth-child(8),
+.content-inventory table td:nth-child(7){
+	text-align: center;
+}
+.content-inventory table td:nth-child(6){
+	text-align: right;
+}
+
+

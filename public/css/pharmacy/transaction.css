@@ -1,0 +1,112 @@
+body{
+	font-size: 12px;
+}
+
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+.content-medicine table > thead > tr > th {
+	text-align: center;
+}
+.content-medicine table > tbody > tr > td {
+	text-transform: uppercase;
+}
+
+.dataTables_length select{
+	border-radius: 0px;
+	box-shadow: none;
+}
+.dataTables_length select:focus{
+	border: 1px solid #757575;
+	box-shadow: none;
+}	
+.dataTables_length select:hover{
+	border: 1px solid #757575;
+}	
+.dataTables_filter input{
+	border-radius: 0px;
+	box-shadow: none;
+}
+.dataTables_filter input:focus{
+	border: 1px solid #757575;
+	box-shadow: none;
+}	
+.dataTables_filter input:hover{
+	border: 1px solid #757575;
+}	
+.transaction .select-date{
+	background-color:  #90a4ae;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+.transaction input, .transaction button{
+	font-size: 12px;
+}
+.transaction input{
+	border-radius: 0px;
+	box-shadow: none;
+	text-transform: uppercase;
+}
+.transaction input:focus{
+	border: 1px solid #757575;
+	box-shadow: none;
+}	
+.transaction input:hover{
+	border: 1px solid #757575;
+}
+.content-medicine table tbody tr{
+	cursor: pointer;
+}
+.content-medicine table th:nth-child(2){
+	text-align: center;
+	font-size: 18px;
+	padding: 4px;
+}
+.content-medicine table td:nth-child(2){
+	text-align: center;
+	font-size: 18px;
+	padding: 4px;
+}
+.sidenav {
+	font-size: 10px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 10;
+    right: 0;
+    background-color: #e8f5e9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.sidenav .tablesidenav{
+	margin: 10px;
+}
+.sidenav .tablesidenav th{
+	text-align: center;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 26px;
+    margin-left: 50px;
+}
+.sidenav .bannersidenav{
+	padding: 5px;
+	margin: 10px;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+

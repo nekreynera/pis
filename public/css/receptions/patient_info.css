@@ -1,0 +1,33 @@
+.patientInfo td:nth-child(odd){
+    width: 170px;
+    background-color: #eee;
+    border-right: 1px solid #ccc;
+}
+.vitalSigns td:nth-child(odd){
+    width: 170px;
+    background-color: #eee;
+    border-right: 1px solid #ccc;
+}
+.notificationsWrapper a{
+    display: block;
+    margin-bottom: 15px;
+}
+.notificationsWrapper .dropdown a{
+    margin-bottom: 0;
+}
+tfoot th{
+    font-weight: normal;
+    font-size: 14px;
+}
+.patient_infoWrapper{
+    border-right: 1px solid #ccc;
+}
+.patient_infoAssign{
+    margin-bottom: 15px;
+}
+.notificationsWrapper th{
+    font-size: 13px;
+}
+.notificationsWrapper td{
+    font-size: 12px;
+}

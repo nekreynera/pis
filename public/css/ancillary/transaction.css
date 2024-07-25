@@ -1,0 +1,69 @@
+body{
+	font-size: 12px;
+}
+
+.banner{
+	padding: 10px;
+	border: 1px solid #bdbdbd;
+}
+.scannerform input{
+	border: 1px solid black;
+	border-right: none;
+	border-radius: 0px;
+	text-align: center;
+
+	
+}
+.scannerform input:focus{
+	box-shadow: none;
+	border: 1px solid black;
+	border-right: none;
+
+}
+.scannerform span{
+	border: 1px solid black;
+	border-left: none;
+	border-radius: 0px;
+	background-color: #ffffff; 
+	font-size: 25px;
+}
+.input-group, .input-group input{
+	height: 55px;
+	font-size: 20px;
+}
+#requestbygroup th{
+	text-align: center;
+}
+#requestbygroup td{
+	text-transform: uppercase;
+}
+.sortingresult{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-right: 0px;
+	border: 1px solid rgb(189, 189, 189);
+}
+.sortingresult:hover{
+	background-color: rgb(223, 240, 216);
+
+}
+.sortingresult input{
+	border-radius: 0px;
+	height: 30px;
+	font-size: 12px;
+}
+.sortingresult input:hover{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.sortingresult input:focus{
+	border: 1px solid black;
+	box-shadow: none;
+}
+.sortingresult button, #requestbygroup td a{
+	font-size: 12px;
+	height: 30px;
+	margin-left: 10px;
+	background: linear-gradient(rgba(231,236,241,1), rgba(173,188,209,1));
+}

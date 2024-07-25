@@ -1,0 +1,83 @@
+#shapes{
+	width: 237px;
+	height: 109px;
+}
+.shapes-clickable{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 1px;
+}
+#shapes-text{
+	font: 11px calibri;
+	position: absolute;
+	width: 235px;
+	height: 15px;
+	left: 1px;
+	top: 93px;
+	color: rgba(181,146,164,1);
+	text-align: center;
+	cursor: default;
+}
+#shapes-text:before{
+	content: 'Shapes';
+}
+.shapes-outline-fill{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 154px;
+	border: 1px solid rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+}
+.shapes-outline-fill-img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 1px;
+	top: 1px;
+}
+.shapes-outline-fill-text{
+	font: 12px calibri;
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	left: 21px;
+	top: 1px;
+	padding-top: 2px;	
+}
+#shapes-outline{
+	top: 2px;
+}
+#shapes-fill{
+	top: 24px;
+}
+#shapes-outline-img{
+	background: rgba(0,0,0,0) url('../img/system/shapes/outline_18x18.png') no-repeat 50% center;
+}
+#shapes-fill-img{
+	background: rgba(0,0,0,0) url('../img/system/shapes/fill_18x18.png') no-repeat 50% center;
+}
+#shapes-outline-text:before{
+	content: 'Outline';
+}
+#shapes-fill-text:before{
+	content: 'Fill';
+}
+.shapes-outline-fill-darr{
+	position: absolute;
+	width: 11px;
+	height: 20px;
+	background: rgba(0,0,0,0) url('../img/system/darr_5x3.png') no-repeat 50% center;	
+}
+#shapes-outline-darr{
+	left: 62px;
+}
+#shapes-fill-darr{
+	left: 38px;
+}
+#shapes-outline:hover, #shapes-fill:hover:hover{
+	border: 1px solid rgba(165, 206, 248, 1);
+	background-color: rgba(233, 239, 246, 1);
+}

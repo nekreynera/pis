@@ -1,0 +1,33 @@
+.generate-form label{
+	font-size: 12px;
+}
+.generate-form input, .generate-form select, .generate-form button{
+	font-size: 12px;
+	height: 32px;
+	border-radius: 3px;
+}
+#referralcontainer table{
+	background-color: #ddd;
+}
+#referralcontainer table th{
+	font-size: 13px;
+	background-color: #cccccc;
+	text-align: center;
+	/*padding: 4px;*/
+}
+#referralcontainer table td{
+	font-size: 12px;
+	/*padding: 4px;*/
+
+}
+
+#reportsTable_length label,#reportsTable_length select
+#reportsTable_filter label,#reportsTable_filter input{
+	font-size: 12px!important;
+	height: 32px!important;
+	border-radius: 3px!important;
+}
+.census-warning{
+	padding: 10px;
+	margin-top: 20px;
+}

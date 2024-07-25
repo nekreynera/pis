@@ -1,0 +1,102 @@
+
+#patient-pending-charges thead tr th,
+#patient-adjust-charges thead tr th,
+#patient-adjust-charges tfoot tr th
+{
+	color: #000;
+  border: 1px solid #ccc;
+  vertical-align:  text-top;
+}
+#patient-adjust-charges thead tr th,
+#patient-pending-charges thead tr th
+{
+   text-align: center;
+}
+#patient-pending-charges th,
+#patient-pending-charges td,
+#patient-adjust-charges th,
+#patient-adjust-charges td
+{
+	padding: 4px;
+}
+#patient-pending-charges .modal-header,
+#patient-pending-charges .modal-body,
+#patient-pending-charges .modal-footer
+{
+	padding: 6px;
+}
+@media screen and (min-width: 768px){
+    #patient-pending-charges .modal-dialog{
+    	width:95%;
+    }
+    #patient-adjust-charges .modal-dialog{
+      width:80%;
+    }
+}
+small.request-number{
+	color: #000;
+	background-color: #fff;
+	border: 1px solid black;
+	padding: 1px 3px;
+	border-radius: 50%;
+}
+td.lock span{
+	font-size: 18px;
+	cursor: pointer;
+}
+
+
+td.lock span:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+td.lock{
+	vertical-align: bottom!important;
+}
+
+select option:disabled{
+  background-color: #ef9a9a;
+}
+
+.loaderRefresh{
+    z-index: 100;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.loaderRefresh .loaderWaiting{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    color: #000;
+}
+.loaderRefresh .loaderWaiting i{
+    font-size: 30px;
+    vertical-align: middle
+}

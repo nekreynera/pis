@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px){
+    #modal-edit-patient .modal-dialog,
+    #modal-medical-records .modal-dialog,
+    #modal-store-patient .modal-dialog{
+        width:900px;
+    }
+    #modal-address .modal-dialog{
+        width:450px;
+    }
+    #modal-check-patient .modal-dialog{
+        width:500px;
+    }
+}
+
+
+.content-header{
+	padding: 8px 8px 0px 8px;
+}
+.content{
+	padding: 8px;
+	font-size: 12px;
+}
+.content .box .box-header,
+.content .box .box-body{
+	padding: 8px 8px 0px 8px;
+}
+.table-hover tbody tr:hover td{
+  background-color: #ccffe8;
+  color: #000;
+}
+table tbody tr.selected td{
+	background-color: #99ffd1;
+	font-weight: bold;
+}
+table.table-striped tbody tr.selected td:nth-child(1) span{
+	display: block;
+}
+table thead tr, table thead tr th{
+	text-align: center;
+	/*border: 1px solid #cccccc;*/
+}
+table.table-striped tbody tr td{
+	vertical-align:bottom;
+}
+#patient-table tbody tr{
+	position: relative;
+}
+
+table.table-striped tbody tr td:nth-child(1){
+	padding: 8px 2px 8px 2px;
+	font-size: 16px;
+}
+table.table-striped tbody tr td:nth-child(1) span{
+	display: none;
+}
+#patient-table tbody tr td:nth-child(2),
+#patient-table thead tr th:nth-child(2){
+	font-size: 24px;
+	padding: 2px;
+}
+
+.modal{
+	font-size: 12px;
+}
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer{
+	padding: 6px;
+}
+.modal .modal-header{
+	font-weight: bold;
+}
+
+.has-feedback input,
+.has-feedback select,
+.has-feedback span,
+{
+  height: 32px;
+  border-radius: 0;
+  font-size: 12px;
+}
+
+.ui-datepicker { 
+	position: relative; 
+	z-index: 10000 !important; 
+}
+.sidebar-menu li.disabled a{
+	/*pointer-events:none;*/
+	opacity:0.6;  
+	cursor: not-allowed!important;
+
+}
+
+
+
+

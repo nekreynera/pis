@@ -1,0 +1,18 @@
+#modal-check-patient .modal-content .note-header{
+  border: 1px solid #E5E5E5;
+  padding: 2px;
+  /*background-color:  #E6FFE6;*/
+}
+#modal-check-patient .modal-content .note-body{
+  border: 1px solid #E5E5E5;
+  padding: 2px;
+  background-color: #ffffff;
+}
+#modal-check-patient input,
+#modal-check-patient select{
+	height: 32px;
+	font-size: 12px;
+}
+
+
+

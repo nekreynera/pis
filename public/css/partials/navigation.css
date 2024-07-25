@@ -1,0 +1,103 @@
+.navigation{
+	position: fixed;
+	width: 100%;
+	border-radius: 0;
+	top: 0;	
+	margin-bottom: 20px;
+	position: fixed;
+    z-index: 5;
+    border-bottom: 1px solid #ccc;
+    /*background-color: #fff;*/
+    background-color: #006699;
+}
+.navigation .navbar-brand i{
+	font-size: 40px;
+	margin-top: -8px;
+	color: #99b0f1;
+	text-shadow: 2px 1px #113292;
+	margin-right: 5px;
+}
+.navigation .navbar-brand label{
+	color: #fff;
+    /*letter-spacing: .3px;*/
+}
+.navigation .navbar-brand label{
+	vertical-align: top;
+}
+#navigationMenus .fa-print{
+	font-size: 16px;
+}
+#navigationMenus a.opd-sub-nav, #navigationMenus a.opd-sub-nav2 {
+    color: #fff;
+    padding: 15px 8px;
+}
+#navigationMenus li{
+    border-left: 1px solid #f2f2f2;
+    transition: .5s background-color;
+}
+#navigationMenus li.active{
+    border-top: 3px solid #fff;
+}
+#navigationMenus li.active a{
+    color: #000;
+}
+#navigationMenus li:hover{
+    /*background-color: #f2f2f2;*/
+    background-color: #006699;
+}
+#navigationMenus li a{
+    color: #fff;
+    background-color: #006699;
+}
+#navigationMenus li a:hover{
+    color: #000;
+}
+#navigationMenus li ul.dropdown-menu{
+    /*padding: 0px;*/
+}
+
+.hamburger {
+    padding: 0;
+    border: transparent;
+    padding-top: 5px;
+}
+.hamburger:hover{
+	cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    width: 25px;
+    -webkit-transform: rotate(-35deg) translate(-2px, 10px) ;
+    transform: rotate(-35deg) translate(-2px, 10px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    width: 25px;
+    -webkit-transform: rotate(35deg) translate(2px, -4px) ;
+    transform: rotate(35deg) translate(2px, -4px) ;
+}
+.shortHandName{
+	visibility: hidden;
+}
+@media (max-width: 500px) {
+    .longBrandName{
+        display: none;
+    }
+    .shortHandName{
+    	visibility: visible;
+    }
+}

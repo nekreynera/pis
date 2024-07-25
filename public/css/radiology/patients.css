@@ -1,0 +1,15 @@
+#radiologyModal thead{
+    background-color: #eee;
+}
+#radiologyModal td{
+    font-size: 13px;
+}
+.h3History{
+    margin: 5px 0 0 0;
+}
+thead{
+    background-color: #eee;
+}
+#quickViewContent{
+    padding-bottom: 200px;
+}

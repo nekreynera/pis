@@ -1,0 +1,18 @@
+.action-button button,
+.action-button a{
+	min-width: 80px;
+}
+.trial-click{
+	position: absolute;
+	display: none;
+	transition: 0s;
+}
+.trial-click button, .trial-click a{
+	text-align: left;
+	 transition: all .3s ease-in-out;
+
+}
+
+.action-button button, .action-button a{
+		margin-bottom: 10px;
+}

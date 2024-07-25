@@ -1,0 +1,16 @@
+body{
+	background-color: #fff!important;
+}
+table,tr,td,th{
+	border: 1px solid #000!important;
+
+}
+table tr th{
+	text-align: center;
+}
+table tr td,
+table tr th{
+	padding: 4px!important;
+	font-size: 12px;
+	border: 1px solid #000;
+}

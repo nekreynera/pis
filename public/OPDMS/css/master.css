@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url("../plugins/fonts/Raleway-Medium.ttf");
+}
+.btn-circle{
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    padding: 5px 0;
+    line-height: 1.60;
+    border-radius: 35px;
+    box-shadow: 2px 2px 2px rgba(68,68,68,0.4);
+}
+.online{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+.offline{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: #ccc;
+    display: inline-block;
+}
+.overlay{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+}
+@media (min-width: 768px) {
+    .modal-xxl {
+        width: 100%;
+        max-width:1300px;
+    }
+}
+
+
+/*--- For Loader Icon ---*/
+.loaderRefresh{
+    z-index: 100;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.loaderRefresh .loaderWaiting{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    color: #000;
+}
+.loaderRefresh .loaderWaiting i{
+    font-size: 30px;
+    vertical-align: middle
+}
+.full_window_loader{
+    position: fixed; !important;
+}
+
+
+
+/*-- thead ---*/
+
+/*.thead{
+    background-color: #fafafa;
+}
+
+
+.img-table{
+    width: 45px!important;
+    height: 45px!important;
+    border: 1px solid #eee!important;
+}
+.img-table:hover{
+    cursor: pointer;
+}
+
+.popover{
+    z-index: 1040;
+}*/
+
+
+/*-- create striped line background --*/
+.stripedLine{
+    background: repeating-linear-gradient(
+            45deg,
+            #eee,
+            #eee 1px,
+            #fff 3px,
+            #fff 5px
+    );
+}
+
+
+/*-- badge like on top of the button --*/
+/*
+.checkedFinished{
+    position: absolute;
+    font-size: 15px;
+}
+*/
+
+
+
+
+/*-- search field --*/
+.whiteSearchBar input[name="search"]:focus{
+    color: #333 !important;
+}
+.whiteSearchBar input[name="search"]{
+    color: #eee !important;
+}
+
+
+
+/*-- avatar on dashboard --*/
+.userAvatarDashboard{
+    height: 45px !important;
+}
+
+
+
+/*-- for text elipsis --*/
+.text-ellipsis{
+    text-transform: lowercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+.text-ellipsis > span{
+    display: inline-block;
+}
+.text-ellipsis > span:first-letter{
+    text-transform: uppercase;
+}
+.text-ellipsis2{
+    text-transform: lowercase;
+}
+.text-ellipsis2 > span{
+    display: inline-block;
+}
+.text-ellipsis2 > span:first-letter{
+    text-transform: uppercase;
+}
+.text-ellipsis3{
+    text-transform: lowercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 260px;
+    margin: 0;
+}
+.text-ellipsis3 > span{
+    display: inline-block;
+}
+.text-ellipsis3 > span:first-letter{
+    text-transform: uppercase;
+}
+
+
+
+
+/* navigation section patient name on registered patients*/
+/*
+.registeredPatientNameWrapper{
+    text-transform: lowercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px !important;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.registeredPatientNameWrapper > span{
+    display: inline-block;
+}
+.registeredPatientNameWrapper > span:first-letter{
+    text-transform: uppercase;
+}
+*/
+
+
+
+
+
+.horizontalRole{
+    width: 5%;
+    border: 3px dotted #ccc;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/*-- page refresh --*/
+#pageRefreshText{
+    display: none;
+}
+
+
+/* btn-colors */
+.btn-purple{
+    background-color: #7575a3;
+    color: #fff;
+}
+.btn-purple:hover{
+    background-color: #5c5c8a;
+    color: #fff;
+}
+.bg-brown{
+    background-color: #AD6F69;
+    color: #fff;
+}
+.bg-brown:hover{
+    background-color: #945751;
+    color: #fff;
+}
+
+
+

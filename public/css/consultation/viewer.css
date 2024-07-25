@@ -1,0 +1,276 @@
+.halfViewer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 5px 5px 5px 5px;
+    width: 60%;
+    height: 70%;
+    z-index: 4000;
+    border: 1px solid #ccc;
+    /*overflow-x: scroll;
+    overflow-y: hidden;*/
+    box-shadow: -2px -2px 13px #333;
+}
+
+.fullViewer{
+    position: fixed;
+    /*left: 0;*/
+    right: 0;
+    bottom: 0;
+    /*margin: 5px 5px 5px 5px;*/
+    width: 100%;
+    height: 100%;
+    z-index: 4000;
+    border: 1px solid #ccc;
+    /*overflow-x: scroll;
+    overflow-y: hidden;*/
+}
+
+
+
+
+
+#viewerContainer .magnifyWrapper{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+}
+#viewerContainer .magnifyWrapper button{
+    margin-bottom: 5px;
+    background-color: #ccc;
+    transition: background-color .3s;
+    outline: none;
+}
+#viewerContainer .magnifyWrapper button:hover{
+    background-color: #fafafa;
+}
+
+
+#viewerContainer .secondaryContainer{
+    /*height: 960px;*/
+    /*height: 20px;*/
+}
+#viewerContainer .thumbnailsWrapper{
+    height: 620px;                  /*fullview*/
+    /*height: 410px;*/              /*halfview*/
+    background-color: #fafafa;
+    overflow: scroll;
+    padding-bottom: 15px;
+}
+#viewerContainer .thumbnailHeader{
+    padding: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+#viewerContainer .thumbnailHeader p {
+    display: inline-block;
+    padding-top: 2px;
+}
+#viewerContainer .thumbnailHeader i{
+    float: right;
+    color: darkgray;
+    padding-top: 3px;
+}
+#viewerContainer .thumbnailHeader i:hover{
+    cursor: pointer;
+    color: #333;
+}
+#viewerContainer .thumbnailContent{
+    height: 150px;              /*fullview*/
+    width: 130px;               /*fullview*/
+
+    /*height: 100px; */             /*halfview*/
+    /*width: 100px; */              /*halfview*/
+
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    transition: box-shadow .3s;
+    overflow: hidden;
+}
+#viewerContainer .thumbnailContent:hover{
+    box-shadow: 5px 5px 5px #ccc;
+    cursor: pointer;
+}
+#viewerContainer .thumbnailContent table th{
+    font-size: 2px;
+}
+#viewerContainer .thumbnailContent table td{
+    font-size: 2px;
+}
+#viewerContainer .thumbnailDate{
+    font-size: 11px;
+    color: gray;
+    margin-top: 15px;
+}
+#viewerContainer .pageNumber{
+    font-size: 12px;
+}
+#viewerContainer .mainContentWrapper{
+
+}
+#viewerContainer .mainContentHeader{
+    padding: 8px 0;
+    background-color: #eee;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#viewerContainer .patientName{
+    font-size: 12px;
+}
+#viewerContainer .patientName p{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#viewerContainer .patientName i:hover{
+    cursor: pointer;
+    color: #333;
+}
+#viewerContainer .contentWindow{
+    font-size: 15px;
+}
+#viewerContainer .contentWindow i{
+    margin-right: 6px;
+    color: #bdbdbd;
+    transition: color .3s;
+}
+#viewerContainer .contentWindow i:hover{
+    color: #333;
+    cursor: pointer;
+}
+#viewerContainer .mainContent{
+    overflow: scroll;
+    padding: 20px;
+    height: 620px;              /*fullview*/
+    /*height: 430px;*/          /*halfview*/
+    background-color: #333;
+}
+#viewerContainer .pageContent{
+    height: 1280px;
+    width: 900px;
+    background-color: #fff;
+    padding: 15px 20px 20px 20px;
+    overflow-y: scroll;
+}
+#viewerContainer .contentHeaderRow{
+    margin-bottom: 8px;
+}
+#viewerContainer .doctorsName{
+    font-size: 13px;
+    display: inline;
+}
+#viewerContainer .pageContent table th{
+    font-size: 13px;
+}
+#viewerContainer .pageContent table td{
+    font-size: 13px;
+}
+#viewerContainer .contentIcons{
+    color: #333;
+    font-size: 12px;
+}
+#viewerContainer .contentIcons{
+    font-size: 13px;
+    color: gray;
+}
+#viewerContainer .iconPrint:hover{
+    color: green;
+}
+#viewerContainer .iconPencil:hover{
+    color: orange;
+}
+
+
+
+
+
+#minimizer{
+    z-index: 50000;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+}
+#minimizer p{
+    font-size: 13px;
+}
+#minimizer .contentWindow i{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #bdbdbd;
+    transition: color .3s;
+}
+#minimizer .contentWindow i:hover{
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+/*@media only screen and (max-width: 500px) {
+     #thumbnailsContainer{
+        width: 400px;
+    }
+}*/
+
+
+
+
+/*@media only screen and (max-width: 1000px) {
+    #viewerContainer .patientName i{
+        color: darkgray;
+        display: none;
+    }
+}*/
+
+
+@media only screen and (max-width: 768px) {
+    #thumbnailsContainer{
+        position: absolute;
+        z-index: 50;
+        display: none;
+    }
+    #viewerContainer .thumbnailsWrapper{
+         height: 510px;
+         padding: 0px 2px;
+    }
+    #viewerContainer .thumbnailContent{
+        height: 100px;
+        width: 80px;
+    }
+    .mainContentWrapper{
+        width: 100%;
+    }
+    .mainContentHeader{
+         padding: 15px 0 !important;
+    }
+    .thumbnailHeader{
+         padding: 17px 10px !important;
+         border-right: 1px solid #ccc;
+    }
+    #viewerContainer .pageContent{
+        height: 1300px;
+    }
+    #viewerContainer .magnifyWrapper{
+        position: absolute;
+        right: 10px;
+        bottom: 110px;
+    }
+}
+
+
+
+@media only screen and (min-width:1400px) {
+    /* For desktops: */
+    #viewerContainer .thumbnailsWrapper{
+         height: 920px;
+    }
+    #viewerContainer .mainContent{
+        height: 920px;
+    }
+}
